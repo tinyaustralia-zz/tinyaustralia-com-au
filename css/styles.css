@@ -154,6 +154,7 @@ b.light-color {
 .display-table-cell {
 		display: table-cell;
 		vertical-align: middle;
+		padding: 50px;
 }
 
 ::-webkit-input-placeholder {
@@ -211,7 +212,7 @@ b.light-color {
 }
 
 .main-area .desc {
-		margin: 40px auto;
+		margin: 40px 0;
 		max-width: 600px;
 }
 .main-area .social-btn{
