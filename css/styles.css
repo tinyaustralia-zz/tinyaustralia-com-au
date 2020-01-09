@@ -214,6 +214,7 @@ b.light-color {
 }
 .main-area .social-btn{
 		position: relative;
+		margin-top: 20px;
 }
 
 .main-area .social-btn > li > a {
