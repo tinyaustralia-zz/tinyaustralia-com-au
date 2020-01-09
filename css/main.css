@@ -1,9 +1,9 @@
 /*------------------------------------------------------------------
 Project:  ComingSoon
-Version:  
-Last change:  
+Version:
+Last change:
 Assigned to:  Bach Le
-Primary use:  
+Primary use:
 -------------------------------------------------------------------*/
 
 
@@ -13,22 +13,22 @@ Primary use:
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('../fonts/Poppins/Poppins-Regular.ttf'); 
+  src: url('../fonts/Poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('../fonts/Poppins/Poppins-Bold.ttf'); 
+  src: url('../fonts/Poppins/Poppins-Bold.ttf');
 }
 
 @font-face {
   font-family: Poppins-Thin;
-  src: url('../fonts/Poppins/Poppins-Thin.ttf'); 
+  src: url('../fonts/Poppins/Poppins-Thin.ttf');
 }
 
 @font-face {
   font-family: Poppins-Black;
-  src: url('../fonts/Poppins/Poppins-Black.ttf'); 
+  src: url('../fonts/Poppins/Poppins-Black.ttf');
 }
 
 
@@ -79,7 +79,6 @@ Primary use:
   font-size: 12px;
   color: #fff;
   line-height: 1;
-  text-transform: uppercase;
 }
 
 
@@ -91,7 +90,6 @@ Primary use:
   font-size: 18px;
   color: #555;
   line-height: 1.2;
-  text-transform: uppercase;
 }
 
 
@@ -103,7 +101,6 @@ Primary use:
   font-size: 72px;
   line-height: 1.1;
   color: rgba(255,255,255,0.5);
-  text-transform: uppercase;
   letter-spacing: 15px;
 }
 
@@ -112,7 +109,6 @@ Primary use:
   font-size: 120px;
   line-height: 1;
   color: #fff;
-  text-transform: uppercase;
 }
 
 
@@ -171,7 +167,7 @@ Primary use:
 
 
 /*==================================================================
-   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE  
+   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE
 ==================================================================*/
 .where1 {
   align-self: flex-start;
@@ -180,7 +176,7 @@ Primary use:
 
 
 /*==================================================================
- HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW 
+ HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW
 ==================================================================*/
 .placeholder0::-webkit-input-placeholder { color: #999999;}
 .placeholder0:-moz-placeholder { color: #999999;}
@@ -391,7 +387,7 @@ Primary use:
   .respon1 {
     font-size: 45px;
   }
-  
+
 }
 
 
