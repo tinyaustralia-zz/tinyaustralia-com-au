@@ -168,6 +168,8 @@ b.light-color{
 	 left: 0;
 		right: 0;
 		z-index: -1;
+		opacity: .7;
+		background: #000;
 }
 .main-area .desc{
 		margin: 20px auto;
