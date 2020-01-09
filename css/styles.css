@@ -10,11 +10,13 @@ html{
 
 body{
 		font-size: 16px;
-		font-family: 'Roboto Slab', serif;
+		font-family: 'Roboto Condensed', sans-serif;
 		width: 100%;
 		height: 100%;
 		margin: 0;
+		font-size: 17px;
 		font-weight: 300;
+		line-height: 1.6;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 		word-wrap: break-word;
@@ -50,12 +52,12 @@ h2 {
 }
 
 h3 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto Condensed', sans-serif;
 
 }
 
 h1 {
-		font-size: 50px;
+		font-size: 48px;
 }
 
 h2 {
@@ -63,13 +65,7 @@ h2 {
 }
 
 h3 {
-		font-size: 28px;
-		font-weight: 300;
-}
-
-p {
-		font-size: 17px;
-		line-height: 1.6;
+		font-size: 22px;
 }
 
 a,
