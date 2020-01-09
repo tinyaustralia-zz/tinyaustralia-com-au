@@ -1,6 +1,3 @@
-
-/* ==================================================== * [Master Stylesheet] Theme Name : Version : Author : Author URI : ==================================================== TOC 1. PRIMARY STYLES 2. COMMONS FOR PAGE DESIGN JQUERY LIGHT BOX 3. MAIN SECTION ====================================================
-/* --------------------------------- 1. PRIMARY STYLES --------------------------------- */
 html{
 		font-size: 100%;
 		height: 100%;
@@ -10,6 +7,7 @@ html{
 		padding: 0px;
 		touch-action: manipulation;
 }
+
 body{
 		font-size: 16px;
 		font-family: 'Roboto Slab', serif;
@@ -21,113 +19,145 @@ body{
 		-moz-osx-font-smoothing: grayscale;
 		word-wrap: break-word;
 		overflow-x: hidden;
-		color: #333;
+		color: #fff;
 }
-h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{
+
+h1,
+h2,
+h3,
+p,
+a,
+ul,
+span,
+li,
+img,
+input,
+button {
 		margin: 0;
 		padding: 0;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3 {
 		line-height: 1.5;
-		font-weight: inherit;
 }
-h1,h2,h3{
+
+h1,
+h2 {
 		font-family: 'Loved by the King', cursive;
+		font-weight: normal;
 }
-p{
-		line-height: 1.6;
-		font-size: 1.05em;
-		font-weight: 300;
-		color: #555;
+
+h3 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 500;
 }
-h1{
+
+h1 {
 		font-size: 3.5em;
-		line-height: 1;
 }
-h2{
+
+h2 {
 		font-size: 3em;
-		line-height: 1.1;
 }
-h3{
+
+h3 {
 		font-size: 2.5em;
-		font-weight: 500;
 }
-h4{
-		font-size: 1.5em;
+
+p {
+		font-size: 1.05em;
+		line-height: 1.6;
 }
-h5{
-		font-size: 1.2em;
-}
-h6{
-		font-size: .9em;
-		letter-spacing: 1px;
-}
-a, button{
+
+a,
+button {
 		display: inline-block;
 		text-decoration: none;
 		color: inherit;
 		transition: all .3s;
 		line-height: 1;
 }
-a:focus, a:active, a:hover, button:focus, button:active, button:hover, a b.light-color:hover{
+a:focus,
+a:active,
+a:hover,
+button:focus,
+button:active,
+button:hover,
+a b.light-color:hover {
 		text-decoration: none;
 		color: #E45F74;
 }
-b{
+
+b {
 		font-weight: 500;
 }
-img{
+
+img {
 		width: 100%;
 }
+
 li{
 		list-style: none;
 		display: inline-block;
 }
-span{
+
+span {
 		display: inline-block;
 }
-button{
+
+button {
 		outline: 0;
 		border: 0;
 		background: none;
 		cursor: pointer;
 }
-b.light-color{
+
+b.light-color {
 		color: #444;
 }
-.icon{
+
+.icon {
 		font-size: 1.1em;
 		display: inline-block;
 		line-height: inherit;
 }
-[class^="icon-"]:before, [class*=" icon-"]:before{
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
 		line-height: inherit;
 }
+
 *, *::before, *::after {
 		-webkit-box-sizing: inherit;
 		box-sizing: inherit;
 }
+
 *, *::before, *::after {
 		-webkit-box-sizing: inherit;
 		box-sizing: inherit;
 }
-/* --------------------------------- 2. COMMONS FOR PAGE DESIGN --------------------------------- */
-.center-text{
+
+.center-text {
 		text-align: center;
 }
-.display-table{
+
+.display-table {
 		display: table;
 		height: 100%;
 		width: 100%;
 }
-.display-table-cell{
+
+.display-table-cell {
 		display: table-cell;
 		vertical-align: middle;
 }
+
 ::-webkit-input-placeholder {
 		font-size: .9em;
 		letter-spacing: 1px;
 }
+
 ::-moz-placeholder {
 		font-size: .9em;
 		letter-spacing: 1px;
@@ -136,21 +166,25 @@ b.light-color{
 		font-size: .9em;
 		letter-spacing: 1px;
 }
+
 :-moz-placeholder {
 		font-size: .9em;
 		letter-spacing: 1px;
 }
-.full-height{
+
+.full-height {
 		height: 100%;
 }
-.position-static{
+
+.position-static {
 		position: static;
 }
-.font-white{
+
+.font-whit {
 		color: #fff;
 }
-/* --------------------------------- 3. MAIN SECTION --------------------------------- */
-.main-area{
+
+.main-area {
 		position: relative;
 		height: 100vh;
 		z-index: 1;
@@ -160,30 +194,22 @@ b.light-color{
 		background-repeat: no-repeat;
 		color: #fff;
 }
-.main-area:after{
+
+.main-area:after {
 		content:'';
 		position: absolute;
 		top: 0;
 		bottom: 0;
-	 left: 0;
+		left: 0;
 		right: 0;
 		z-index: -1;
 		opacity: .3;
 		background: #000;
 }
-.main-area .desc{
+
+.main-area .desc {
 		margin: 20px auto;
 		max-width: 500px;
-}
-.main-area .notify-btn{
-		padding: 13px 35px;
-		border-radius: 50px;
-		border: 2px solid #F84982;
-		color: #fff;
-		background: #F84982;
-}
-.main-area .notify-btn:hover{
-		background: none;
 }
 .main-area .social-btn{
 		position: absolute;
@@ -192,13 +218,15 @@ b.light-color{
 		left: 50%;
 		transform: translateX(-50%);
 }
-.main-area .social-btn > li > a{
+
+.main-area .social-btn > li > a {
 		margin: 0 10px;
 		padding-bottom: 7px;
 		position: relative;
 		overflow: hidden;
 }
-.main-area .social-btn > li > a:after{
+
+.main-area .social-btn > li > a:after {
 		content:'';
 		position: absolute;
 		bottom: 0;
@@ -208,6 +236,7 @@ b.light-color{
 		height: 2px;
 		background: #F84982;
 }
-.main-area .social-btn > li > a:hover:after{
+
+.main-area .social-btn > li > a:hover:after {
 		transform: translateX(100%);
 }
