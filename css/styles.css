@@ -41,29 +41,30 @@ h1,
 h2,
 h3 {
 		line-height: 1.5;
+		font-weight: normal;
 }
 
 h1,
 h2 {
 		font-family: 'Loved by the King', cursive;
-		font-weight: normal;
 }
 
 h3 {
 	font-family: 'Roboto Slab', serif;
-	font-weight: 500;
+
 }
 
 h1 {
-		font-size: 3.5em;
+		font-size: 32px;
 }
 
 h2 {
-		font-size: 3em;
+		font-size: 28px;
 }
 
 h3 {
-		font-size: 2.5em;
+		font-size: 17px;
+		font-weight: 300;
 }
 
 p {
@@ -212,11 +213,7 @@ b.light-color {
 		max-width: 500px;
 }
 .main-area .social-btn{
-		position: absolute;
-		bottom: 40px;
-		width: 100%;
-		left: 50%;
-		transform: translateX(-50%);
+		position: relative;
 }
 
 .main-area .social-btn > li > a {
