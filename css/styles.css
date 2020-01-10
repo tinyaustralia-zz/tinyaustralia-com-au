@@ -119,6 +119,10 @@ button {
 	font-weight: 500;
 }
 
+.color-bluegrey {
+	color: #006064;
+}
+
 .page-wrapper {
 		display: table;
 		width: 100%;
