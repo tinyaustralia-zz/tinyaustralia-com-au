@@ -116,6 +116,15 @@ button {
 	font-size: 14px;
 }
 
+.bold {
+	font-weight: 500;
+}
+
+.highlight {
+		color: #d94f4d;
+		text-decoration: underline;
+}
+
 .page-wrapper {
 		display: table;
 		width: 100%;
