@@ -42,14 +42,12 @@ button {
 
 h1 {
 		font-family: 'Loved by the King', cursive;
-		line-height: 1.6;
 }
 
 h2 {
 		font-family: 'Roboto', sans-serif;
-		font-size: 20px;
-		font-weight: 300;
-		line-height: 1.2;
+		font-size: 14px;
+		font-weight: 500;
 }
 
 a,
@@ -68,7 +66,7 @@ button:focus,
 button:active,
 button:hover {
 		text-decoration: none;
-		color: #EF6C00;
+		color: #d94f4d;
 }
 
 b {
@@ -113,12 +111,9 @@ button {
 		text-align: center;
 }
 
-.bold {
+.small {
 	font-weight: 500;
-}
-
-.color-bluegrey {
-	color: #006064;
+	font-size: 14px;
 }
 
 .page-wrapper {
@@ -151,8 +146,29 @@ button {
 }
 
 .title {
+		position: relative;
 		word-spacing: -12px;
 		letter-spacing: 3px;
+    color: #d94f4d;
+		font-weight: 300;
+}
+
+.title:after {
+		content: '';
+		position: absolute;
+		margin: 10px auto;
+		left: -115px;
+		right: 0;
+		bottom: 0;
+		width: 80px;
+		height: 1px;
+		border-radius: 100%;
+		background: #EF6C00;
+		transform: rotate(-4deg);
+}
+
+.headline {
+	margin: 20px 0;
 }
 
 .description {
@@ -179,7 +195,7 @@ button {
 		right: 0;
 		transition: all .2s;
 		height: 1px;
-		background: #EF6C00;
+		background: #d94f4d;
 }
 
 .social-btn > li > a:hover:after {
