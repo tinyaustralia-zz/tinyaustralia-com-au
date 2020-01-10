@@ -70,7 +70,7 @@ button:focus,
 button:active,
 button:hover {
 		text-decoration: none;
-		color: #da4c3c;
+		color: #EF6C00;
 }
 
 b {
@@ -171,14 +171,14 @@ button {
 }
 
 .social-btn > li > a:after {
-		content:'';
+		content: '';
 		position: absolute;
 		bottom: 0;
 		left: 0;
 		right: 0;
 		transition: all .2s;
-		height: 2px;
-		background: #da4c3c;
+		height: 1px;
+		background: #EF6C00;
 }
 
 .social-btn > li > a:hover:after {
