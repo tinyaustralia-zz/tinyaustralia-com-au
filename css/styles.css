@@ -115,6 +115,12 @@ button {
 		text-align: center;
 }
 
+.background-image {
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
 .display-table {
 		display: table;
 		height: 100%;
@@ -132,7 +138,7 @@ button {
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    border: 1px solid #ddd;
+    border: 1px solid rgba(228, 80, 73, 0.35);
 }
 
 .title {
