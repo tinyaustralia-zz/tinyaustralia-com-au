@@ -115,6 +115,10 @@ button {
 		text-align: center;
 }
 
+.bold {
+	font-weight: 500;
+}
+
 .background-image {
     background-size: cover;
     background-position: left center;
