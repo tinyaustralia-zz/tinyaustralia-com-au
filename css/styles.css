@@ -143,6 +143,7 @@ button {
 		height: 100px;
 		margin: 0 0 15px 0;
 		border-radius: 100%;
+		border: 1px solid #dd6764;
 }
 
 .title {
