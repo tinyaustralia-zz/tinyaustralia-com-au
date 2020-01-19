@@ -24,8 +24,8 @@ button:hover {
 		color: #d94f4d;
 }
 
-button:focus {
-	outline: 0;
+* {
+	outline: 0 !important;
 }
 
 .btn {
