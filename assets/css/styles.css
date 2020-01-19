@@ -218,6 +218,6 @@ button {
 		transform: translateX(100%);
 }
 
-footer .fixed-bottom {
+.fixed-bottom {
     background-color: #f8f9fa;
 }
