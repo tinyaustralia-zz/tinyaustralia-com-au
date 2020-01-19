@@ -24,6 +24,13 @@ button:hover {
 		color: #d94f4d;
 }
 
+.btn {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    margin: 3px;
+}
+
 .page-wrapper {
 		display: table;
 		width: 100%;
