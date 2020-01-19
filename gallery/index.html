@@ -1,735 +1,320 @@
 <!DOCTYPE HTML>
 <html lang="en-au">
 
-<head>
-	
-	<title>Tiny Australia</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">
-	
-	<link rel="shortcut icon" href="../assets/images/favicon.png" />
-	<link href="https://fonts.googleapis.com/css?family=Loved+by+the+King|Roboto:300,400,700&display=swap" rel="stylesheet">
-	<link href="../assets/css/bootstrap.css" rel="stylesheet">
-	<link href="../assets/css/styles.css" rel="stylesheet">
-	<link href="../assets/css/photoswipe.css" rel="stylesheet">
-	<link href="../assets/css/photoswipe-skin.css" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="../assets/js/bootstrap.js"></script>
-	<script src="../assets/js/photoswipe.js"></script>
-	<script src="../assets/js/photoswipe-skin.js"></script>
-	
-	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-5FRN8PS');</script>
-	<!-- End Google Tag Manager -->
-	
-</head>
+<html>
 
-<body>
-	
-	<div class="container">
+  <head>
+  	
+  	<title>Tiny Australia</title>
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta charset="UTF-8">
+  	
+  	<link rel="shortcut icon" href="../assets/images/favicon.png" />
+  	<link href="https://fonts.googleapis.com/css?family=Loved+by+the+King|Roboto:300,400,700&display=swap" rel="stylesheet">
+  	<link href="../assets/css/bootstrap.css" rel="stylesheet">
+  	<link href="../assets/css/styles.css" rel="stylesheet">
+  	<link href="../assets/css/gallery.css" rel="stylesheet">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="../assets/js/bootstrap.js"></script>
+  	
+  	<!-- Google Tag Manager -->
+  	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  	})(window,document,'script','dataLayer','GTM-5FRN8PS');</script>
+  	<!-- End Google Tag Manager -->
+  	
+  </head>
 
-		<h2>Stripping & Cleaning</h2>
-		
-		<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+  <body>
+    
+    <div class="container">
 
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/01-stripout/01a.jpg" itemprop="contentUrl" data-size="1008x567">
-					<img src="images/vanbuild/01-stripout/01a.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-center mb-5">
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="all">All</button>
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="1">Cleaning</button>
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="2">Insulation</button>
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="3">Framing</button>
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="4">Vapour</button>
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="5">Wall</button>
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="6">Floor</button>
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="7">Bed</button>
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="8">Cabinets 1/2</button>
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="9">Cabinets 2/2</button>
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="10">Drawers</button>
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="11">Paint</button>
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="12">Electrical</button>
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="13">Benchtop</button>
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="14">Desk</button>
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="15">Finishings</button>
+          </div>
+        </div>
 
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/01-stripout/01b.jpg" itemprop="contentUrl" data-size="1008x567">
-					<img src="images/vanbuild/01-stripout/01b.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption 2</figcaption>
-			</figure>
+        <div class="row">
+          <div class="gallery" id="gallery">
+            
+            <!-- 1 - Cleaning -->
+            
+            <!-- 2 - Insulation -->
+            
+            <!-- 3 - Framing -->
+            
+            <!-- 4 - Vapour -->
+            
+            <!-- 5 - Wall -->
+            
+            <!-- 6 - Floor -->
+            
+            <!-- 7 - Bed -->
+            
+            <!-- 8 - Cabinets 1/2 -->
+            
+            <!-- 9 - Cabinets 2/2 -->
+            
+            <!-- 10 - Drawers -->
+            
+            <!-- 11 - Paint -->
+            
+            <!-- 12 - Electrical -->
+            
+            <!-- 13 - Benchtop -->
+            
+            <!-- 14 - Desk -->
+            
+            <!-- 15 - Finishings -->
 
-		</div>
-		
-		<h2>Insulation</h2>
-		
-		<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+            <div class="mb-3 pics animation all 1">
+              <img class="img-fluid" src="images/vanbuild/01-stripout/01a.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 1">
+              <img class="img-fluid" src="images/vanbuild/01-stripout/01b.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 2">
+              <img class="img-fluid" src="images/vanbuild/02-insulation/02a.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 2">
+              <img class="img-fluid" src="images/vanbuild/02-insulation/02b.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 2">
+              <img class="img-fluid" src="images/vanbuild/02-insulation/02c.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 3">
+              <img class="img-fluid" src="images/vanbuild/03-framing/03a.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 3">
+              <img class="img-fluid" src="images/vanbuild/03-framing/03b.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 4">
+              <img class="img-fluid" src="images/vanbuild/04-barrier/04a.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 4">
+              <img class="img-fluid" src="images/vanbuild/04-barrier/04b.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 4">
+              <img class="img-fluid" src="images/vanbuild/04-barrier/04c.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 4">
+              <img class="img-fluid" src="images/vanbuild/04-barrier/04d.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 5">
+              <img class="img-fluid" src="images/vanbuild/05-wall/05a.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 5">
+              <img class="img-fluid" src="images/vanbuild/05-wall/05b.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 6">
+              <img class="img-fluid" src="images/vanbuild/06-floor/06a.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 6">
+              <img class="img-fluid" src="images/vanbuild/06-floor/06b.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 6">
+              <img class="img-fluid" src="images/vanbuild/06-floor/06c.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 6">
+              <img class="img-fluid" src="images/vanbuild/06-floor/06d.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 7">
+              <img class="img-fluid" src="images/vanbuild/07-bed/07a.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 7">
+              <img class="img-fluid" src="images/vanbuild/07-bed/07b.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 7">
+              <img class="img-fluid" src="images/vanbuild/07-bed/07c.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 7">
+              <img class="img-fluid" src="images/vanbuild/07-bed/07d.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 8">
+              <img class="img-fluid" src="images/vanbuild/08-headcab/08a.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 8">
+              <img class="img-fluid" src="images/vanbuild/08-headcab/08b.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 8">
+              <img class="img-fluid" src="images/vanbuild/08-headcab/08c.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 9">
+              <img class="img-fluid" src="images/vanbuild/09-floorcab/09a.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 9">
+              <img class="img-fluid" src="images/vanbuild/09-floorcab/09b.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 9">
+              <img class="img-fluid" src="images/vanbuild/09-floorcab/09c.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 9">
+              <img class="img-fluid" src="images/vanbuild/09-floorcab/09d.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 10">
+              <img class="img-fluid" src="images/vanbuild/10-drawers/10a.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 10">
+              <img class="img-fluid" src="images/vanbuild/10-drawers/10b.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 11">
+              <img class="img-fluid" src="images/vanbuild/11-paint/11a.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 11">
+              <img class="img-fluid" src="images/vanbuild/11-paint/11b.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 11">
+              <img class="img-fluid" src="images/vanbuild/11-paint/11c.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 11">
+              <img class="img-fluid" src="images/vanbuild/11-paint/11d.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 11">
+              <img class="img-fluid" src="images/vanbuild/11-paint/11e.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 12">
+              <img class="img-fluid" src="images/vanbuild/12-electrics/12a.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 12">
+              <img class="img-fluid" src="images/vanbuild/12-electrics/12b.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 12">
+              <img class="img-fluid" src="images/vanbuild/12-electrics/12c.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 12">
+              <img class="img-fluid" src="images/vanbuild/12-electrics/12d.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 12">
+              <img class="img-fluid" src="images/vanbuild/12-electrics/12e.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 12">
+              <img class="img-fluid" src="images/vanbuild/12-electrics/12f.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 13">
+              <img class="img-fluid" src="images/vanbuild/13-benchtop/13a.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 13">
+              <img class="img-fluid" src="images/vanbuild/13-benchtop/13b.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 13">
+              <img class="img-fluid" src="images/vanbuild/13-benchtop/13b.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 14">
+              <img class="img-fluid" src="images/vanbuild/14-desk/14a.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 14">
+              <img class="img-fluid" src="images/vanbuild/14-desk/14b.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 15">
+              <img class="img-fluid" src="images/vanbuild/15-finishings/15a.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 15">
+              <img class="img-fluid" src="images/vanbuild/15-finishings/15b.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 15">
+              <img class="img-fluid" src="images/vanbuild/15-finishings/15c.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 15">
+              <img class="img-fluid" src="images/vanbuild/15-finishings/15d.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="mb-3 pics animation all 15">
+              <img class="img-fluid" src="images/vanbuild/15-finishings/15e.jpg" alt="Card image cap">
+            </div>
 
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/02-insulation/02a.jpg" itemprop="contentUrl" data-size="1008x567">
-					<img src="images/vanbuild/02-insulation/02a.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
+          </div>
+        </div>
 
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/02-insulation/02b.jpg" itemprop="contentUrl" data-size="1008x567">
-					<img src="images/vanbuild/02-insulation/02b.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption 2</figcaption>
-			</figure>
+    </div>
+    
+    <!-- Google Tag Manager (noscript) -->
+  	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FRN8PS"
+  	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  	<!-- End Google Tag Manager (noscript) -->
+    
+  </body>
 
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/02-insulation/02c.jpg" itemprop="contentUrl" data-size="1008x567">
-					<img src="images/vanbuild/02-insulation/02c.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption 3</figcaption>
-			</figure>
-
-		</div>
-		
-		<h2>Framing</h2>
-		
-		<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/03-framing/03a.jpg" itemprop="contentUrl" data-size="960x540">
-					<img src="images/vanbuild/03-framing/03a.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/03-framing/03b.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/03-framing/03b.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption 2</figcaption>
-			</figure>
-
-		</div>
-		
-		<h2>Water Barrier</h2>
-		
-		<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/04-barrier/04a.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/04-barrier/04a.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/04-barrier/04b.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/04-barrier/04b.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption 2</figcaption>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/04-barrier/04c.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/04-barrier/04c.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption 3</figcaption>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/04-barrier/04d.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/04-barrier/04d.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption 4</figcaption>
-			</figure>
-
-		</div>
-		
-		<h2>Wall Panelling</h2>
-		
-		<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/05-wall/05a.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/05-wall/05a.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/05-wall/05b.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/05-wall/05b.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption 2</figcaption>
-			</figure>
-
-		</div>
-		
-		<h2>Flooring</h2>
-		
-		<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/06-floor/06a.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/06-floor/06a.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/06-floor/06b.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/06-floor/06b.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-			
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/06-floor/06c.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/06-floor/06c.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-			
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/06-floor/06d.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/06-floor/06d.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-		</div>
-		
-		<h2>Bed</h2>
-		
-		<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/07-bed/07a.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/07-bed/07a.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/07-bed/07b.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/07-bed/07b.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-			
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/07-bed/07c.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/07-bed/07c.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-			
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/07-bed/07d.jpg" itemprop="contentUrl" data-size="486x648">
-					<img src="images/vanbuild/07-bed/07d.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-		</div>
-		
-		<h2>Floating Cabinets</h2>
-		
-		<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/08-headcab/08a.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/08-headcab/08a.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/08-headcab/08b.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/08-headcab/08b.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-			
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/08-headcab/08c.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/08-headcab/08c.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-		</div>
-		
-		<h2>Kitchen Cabinets</h2>
-		
-		<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/09-floorcab/09a.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/09-floorcab/09a.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/09-floorcab/09b.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/09-floorcab/09b.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-			
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/09-floorcab/09c.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/09-floorcab/09c.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-			
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/09-floorcab/09d.jpg" itemprop="contentUrl" data-size="1080x1080">
-					<img src="images/vanbuild/09-floorcab/09d.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-		</div>
-		
-		<h2>Bed Drawers</h2>
-		
-		<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/10-drawers/10a.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/10-drawers/10a.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/10-drawers/10b.jpg" itemprop="contentUrl" data-size="756x756">
-					<img src="images/vanbuild/10-drawers/10b.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-		</div>
-		
-		<h2>Painting</h2>
-		
-		<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/11-paint/11a.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/11-paint/11a.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/11-paint/11b.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/11-paint/11b.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-			
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/11-paint/11c.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/11-paint/11c.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/11-paint/11d.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/11-paint/11d.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-			
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/11-paint/11e.jpg" itemprop="contentUrl" data-size="728x728">
-					<img src="images/vanbuild/11-paint/11e.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-		</div>
-		
-		<h2>Electrical</h2>
-		
-		<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/12-electrics/12a.jpg" itemprop="contentUrl" data-size="756x756">
-					<img src="images/vanbuild/12-electrics/12a.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/12-electrics/12b.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/12-electrics/12b.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-			
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/12-electrics/12c.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/12-electrics/12c.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/12-electrics/12d.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/12-electrics/12d.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-			
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/12-electrics/12e.jpg" itemprop="contentUrl" data-size="756x1008">
-					<img src="images/vanbuild/12-electrics/12e.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-			
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/12-electrics/12f.jpg" itemprop="contentUrl" data-size="756x1008">
-					<img src="images/vanbuild/12-electrics/12f.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-		</div>
-		
-		<h2>Kitchen Benchtop</h2>
-		
-		<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/13-benchtop/13a.jpg" itemprop="contentUrl" data-size="460x345">
-					<img src="images/vanbuild/13-benchtop/13a.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/13-benchtop/13b.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/13-benchtop/13b.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-			
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/13-benchtop/13b.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/13-benchtop/13b.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-		</div>
-		
-		<h2>Office Desk</h2>
-		
-		<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/14-desk/14a.jpg" itemprop="contentUrl" data-size="1008x756">
-					<img src="images/vanbuild/14-desk/14a.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/14-desk/14b.jpg" itemprop="contentUrl" data-size="814x458">
-					<img src="images/vanbuild/14-desk/14b.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-		</div>
-		
-		<h2>Finishings</h2>
-		
-		<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/15-finishings/15a.jpg" itemprop="contentUrl" data-size="960x540">
-					<img src="images/vanbuild/15-finishings/15a.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/15-finishings/15b.jpg" itemprop="contentUrl" data-size="1080x1080">
-					<img src="images/vanbuild/15-finishings/15b.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-			
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/15-finishings/15c.jpg" itemprop="contentUrl" data-size="1080x1080">
-					<img src="images/vanbuild/15-finishings/15c.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/15-finishings/15d.jpg" itemprop="contentUrl" data-size="816x612">
-					<img src="images/vanbuild/15-finishings/15d.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-			
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				<a href="images/vanbuild/15-finishings/15e.jpg" itemprop="contentUrl" data-size="640x360">
-					<img src="images/vanbuild/15-finishings/15e.jpg" itemprop="thumbnail" alt="Image description" />
-				</a>
-				<figcaption itemprop="caption description">Image caption  1</figcaption>
-			</figure>
-
-		</div>
-
-		<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-			<div class="pswp__bg"></div>
-			<div class="pswp__scroll-wrap">
-			<div class="pswp__container">
-			<div class="pswp__item"></div>
-			<div class="pswp__item"></div>
-			<div class="pswp__item"></div>
-			</div>
-			<div class="pswp__ui pswp__ui--hidden">
-			<div class="pswp__top-bar">
-			<div class="pswp__counter"></div>
-			<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-			<button class="pswp__button pswp__button--share" title="Share"></button>
-			<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-			<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-			<div class="pswp__preloader">
-			<div class="pswp__preloader__icn">
-			<div class="pswp__preloader__cut">
-			<div class="pswp__preloader__donut"></div>
-			</div>
-			</div>
-			</div>
-			</div>
-			<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-			<div class="pswp__share-tooltip"></div> 
-			</div>
-			<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-			</button>
-			<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-			</button>
-			<div class="pswp__caption">
-			<div class="pswp__caption__center"></div>
-			</div>
-			</div>
-			</div>
-		</div>
-		
-	</div>
-	
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FRN8PS"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
-
-</body>
+</html>
 
 <script>
-	var initPhotoSwipeFromDOM = function(gallerySelector) {
-	
-	    // parse slide data (url, title, size ...) from DOM elements 
-	    // (children of gallerySelector)
-	    var parseThumbnailElements = function(el) {
-	        var thumbElements = el.childNodes,
-	            numNodes = thumbElements.length,
-	            items = [],
-	            figureEl,
-	            linkEl,
-	            size,
-	            item;
-	
-	        for(var i = 0; i < numNodes; i++) {
-	
-	            figureEl = thumbElements[i]; // <figure> element
-	
-	            // include only element nodes 
-	            if(figureEl.nodeType !== 1) {
-	                continue;
-	            }
-	
-	            linkEl = figureEl.children[0]; // <a> element
-	
-	            size = linkEl.getAttribute('data-size').split('x');
-	
-	            // create slide object
-	            item = {
-	                src: linkEl.getAttribute('href'),
-	                w: parseInt(size[0], 10),
-	                h: parseInt(size[1], 10)
-	            };
-	
-	
-	
-	            if(figureEl.children.length > 1) {
-	                // <figcaption> content
-	                item.title = figureEl.children[1].innerHTML; 
-	            }
-	
-	            if(linkEl.children.length > 0) {
-	                // <img> thumbnail element, retrieving thumbnail url
-	                item.msrc = linkEl.children[0].getAttribute('src');
-	            } 
-	
-	            item.el = figureEl; // save link to element for getThumbBoundsFn
-	            items.push(item);
-	        }
-	
-	        return items;
-	    };
-	
-	    // find nearest parent element
-	    var closest = function closest(el, fn) {
-	        return el && ( fn(el) ? el : closest(el.parentNode, fn) );
-	    };
-	
-	    // triggers when user clicks on thumbnail
-	    var onThumbnailsClick = function(e) {
-	        e = e || window.event;
-	        e.preventDefault ? e.preventDefault() : e.returnValue = false;
-	
-	        var eTarget = e.target || e.srcElement;
-	
-	        // find root element of slide
-	        var clickedListItem = closest(eTarget, function(el) {
-	            return (el.tagName && el.tagName.toUpperCase() === 'FIGURE');
-	        });
-	
-	        if(!clickedListItem) {
-	            return;
-	        }
-	
-	        // find index of clicked item by looping through all child nodes
-	        // alternatively, you may define index via data- attribute
-	        var clickedGallery = clickedListItem.parentNode,
-	            childNodes = clickedListItem.parentNode.childNodes,
-	            numChildNodes = childNodes.length,
-	            nodeIndex = 0,
-	            index;
-	
-	        for (var i = 0; i < numChildNodes; i++) {
-	            if(childNodes[i].nodeType !== 1) { 
-	                continue; 
-	            }
-	
-	            if(childNodes[i] === clickedListItem) {
-	                index = nodeIndex;
-	                break;
-	            }
-	            nodeIndex++;
-	        }
-	
-	
-	
-	        if(index >= 0) {
-	            // open PhotoSwipe if valid index found
-	            openPhotoSwipe( index, clickedGallery );
-	        }
-	        return false;
-	    };
-	
-	    // parse picture index and gallery index from URL (#&pid=1&gid=2)
-	    var photoswipeParseHash = function() {
-	        var hash = window.location.hash.substring(1),
-	        params = {};
-	
-	        if(hash.length < 5) {
-	            return params;
-	        }
-	
-	        var vars = hash.split('&');
-	        for (var i = 0; i < vars.length; i++) {
-	            if(!vars[i]) {
-	                continue;
-	            }
-	            var pair = vars[i].split('=');  
-	            if(pair.length < 2) {
-	                continue;
-	            }           
-	            params[pair[0]] = pair[1];
-	        }
-	
-	        if(params.gid) {
-	            params.gid = parseInt(params.gid, 10);
-	        }
-	
-	        return params;
-	    };
-	
-	    var openPhotoSwipe = function(index, galleryElement, disableAnimation, fromURL) {
-	        var pswpElement = document.querySelectorAll('.pswp')[0],
-	            gallery,
-	            options,
-	            items;
-	
-	        items = parseThumbnailElements(galleryElement);
-	
-	        // define options (if needed)
-	        options = {
-	
-	            // define gallery index (for URL)
-	            galleryUID: galleryElement.getAttribute('data-pswp-uid'),
-	
-	            getThumbBoundsFn: function(index) {
-	                // See Options -> getThumbBoundsFn section of documentation for more info
-	                var thumbnail = items[index].el.getElementsByTagName('img')[0], // find thumbnail
-	                    pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
-	                    rect = thumbnail.getBoundingClientRect(); 
-	
-	                return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
-	            }
-	
-	        };
-	
-	        // PhotoSwipe opened from URL
-	        if(fromURL) {
-	            if(options.galleryPIDs) {
-	                // parse real index when custom PIDs are used 
-	                // http://photoswipe.com/documentation/faq.html#custom-pid-in-url
-	                for(var j = 0; j < items.length; j++) {
-	                    if(items[j].pid == index) {
-	                        options.index = j;
-	                        break;
-	                    }
-	                }
-	            } else {
-	                // in URL indexes start from 1
-	                options.index = parseInt(index, 10) - 1;
-	            }
-	        } else {
-	            options.index = parseInt(index, 10);
-	        }
-	
-	        // exit if index not found
-	        if( isNaN(options.index) ) {
-	            return;
-	        }
-	
-	        if(disableAnimation) {
-	            options.showAnimationDuration = 0;
-	        }
-	
-	        // Pass data to PhotoSwipe and initialize it
-	        gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
-	        gallery.init();
-	    };
-	
-	    // loop through all gallery elements and bind events
-	    var galleryElements = document.querySelectorAll( gallerySelector );
-	
-	    for(var i = 0, l = galleryElements.length; i < l; i++) {
-	        galleryElements[i].setAttribute('data-pswp-uid', i+1);
-	        galleryElements[i].onclick = onThumbnailsClick;
-	    }
-	
-	    // Parse URL and open gallery if it contains #&pid=3&gid=1
-	    var hashData = photoswipeParseHash();
-	    if(hashData.pid && hashData.gid) {
-	        openPhotoSwipe( hashData.pid ,  galleryElements[ hashData.gid - 1 ], true, true );
-	    }
-	};
-	
-	// execute above function
-	initPhotoSwipeFromDOM('.my-gallery');
-	</script>
+  $(function() {
+  var selectedClass = "";
+  $(".filter").click(function(){
+  selectedClass = $(this).attr("data-rel");
+  $("#gallery").fadeTo(100, 0.1);
+  $("#gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
+  setTimeout(function() {
+  $("."+selectedClass).fadeIn().addClass('animation');
+  $("#gallery").fadeTo(300, 1);
+  }, 300);
+  });
+  });
+</script>
