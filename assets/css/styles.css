@@ -124,6 +124,13 @@ button {
 		color: #d94f4d;
 }
 
+.btn {
+    background-color: #f8f9fa;
+    border: 1px solid #eee;
+    margin: 3px;
+    border-radius: 0;
+}
+
 .page-wrapper {
 		display: table;
 		width: 100%;
