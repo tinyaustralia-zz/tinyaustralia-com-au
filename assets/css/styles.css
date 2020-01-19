@@ -48,6 +48,10 @@ h2 {
 		font-weight: 500;
 }
 
+a {
+	color: #444;
+}
+
 a:focus,
 a:active,
 a:hover,
