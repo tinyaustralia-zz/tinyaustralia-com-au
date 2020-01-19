@@ -24,6 +24,10 @@ button:hover {
 		color: #d94f4d;
 }
 
+button:focus {
+	outline: 0;
+}
+
 .btn {
     background-color: #eee;
     border: 1px solid #ddd;

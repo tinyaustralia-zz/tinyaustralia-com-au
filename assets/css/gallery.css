@@ -28,10 +28,3 @@
     column-width: 100%;
   }
 }
-
-@media (max-width: 400px) {
-  .btn.filter {
-    padding-left: 1.1rem;
-    padding-right: 1.1rem;
-  }
-}
