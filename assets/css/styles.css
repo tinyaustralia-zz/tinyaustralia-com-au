@@ -85,7 +85,7 @@ button {
 .btn {
     background-color: #f8f9fa;
     border: 1px solid #eee;
-    margin: 3px;
+    margin-bottom: 4px;
     border-radius: 0;
 }
 
