@@ -8,12 +8,6 @@ body {
 	margin: 80px 0;
 }
 
-*:focus,
-*:active,
-*:hover {
-	outline: none !important;
-}
-
 h1,
 h2,
 h3,
@@ -38,6 +32,13 @@ a:hover {
 li {
 	list-style: none;
 	display: inline-block;
+}
+
+button:focus,
+button:active,
+button:hover {
+	border: 1px solid #eee !important;
+	outline: none !important;
 }
 
 .btn {
