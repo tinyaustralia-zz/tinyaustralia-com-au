@@ -46,6 +46,13 @@ li {
    box-shadow: none !important;
 }
 
+.navbar-brand img.logo {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #dd6764;
+    border-radius: 100%;
+}
+
 .social-btn{
 		position: relative;
 		margin: 0;
