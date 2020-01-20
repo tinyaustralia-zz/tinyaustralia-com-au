@@ -1,11 +1,15 @@
-html{
+html {
 	position: relative;
   min-height: 100%;
 }
 
-body{
+body {
 	font-family: 'Roboto', sans-serif;
 	margin: 80px 0;
+}
+
+*:focus {
+	outline: none !important;
 }
 
 h1,
