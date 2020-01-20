@@ -33,11 +33,6 @@ li {
 	display: inline-block;
 }
 
-.btn {
-  margin-bottom: 4px;
-  border-radius: 0;
-}
-
 .btn:focus,
 .btn:active {
    outline: none !important;
