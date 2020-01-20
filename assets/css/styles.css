@@ -43,7 +43,7 @@ li {
 .btn:focus,
 .btn:active {
    outline: none !important;
-   box-shadow: none;
+   box-shadow: none !important;
 }
 
 .social-btn{
