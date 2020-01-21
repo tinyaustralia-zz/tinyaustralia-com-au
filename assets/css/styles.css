@@ -67,13 +67,16 @@ main {
 }
 
 .social-btn {
-		position: relative;
 		margin: 0;
 		padding: 0;
 }
 
 header .social-btn > li > a {
 		margin: 0 8px;
+}
+
+main .social-btn > li > a {
+		margin-right: 8px;
 		position: relative;
 		overflow: hidden;
 }
