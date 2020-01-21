@@ -20,8 +20,7 @@ h6 {
 }
 
 a {
-	color: #444;
-	text-decoration: underline;
+	color: #d62c2f;
 }
 
 a:focus,
@@ -29,6 +28,11 @@ a:active,
 a:hover {
 	text-decoration: none;
 	color: #d94f4d;
+}
+
+.nav-item a,
+.social-btn a {
+		color: #444;
 }
 
 li {
