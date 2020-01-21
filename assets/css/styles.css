@@ -76,13 +76,13 @@ header .social-btn > li > a {
 }
 
 main .social-btn > li > a {
-		margin-right: 8px;
+		margin-right: 12px;
 		position: relative;
 		overflow: hidden;
 }
 
 main .social-btn i {
-    margin-right: 5px;
+    margin-right: 8px;
 }
 
 .gallery {
