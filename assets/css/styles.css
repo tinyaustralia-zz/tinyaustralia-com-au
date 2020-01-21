@@ -47,7 +47,8 @@ li {
    box-shadow: none !important;
 }
 
-input {
+.card input,
+.card button {
 	width: 100%;
 }
 
