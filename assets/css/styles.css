@@ -32,6 +32,12 @@ li {
 	display: inline-block;
 }
 
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
+
 .btn:focus,
 .btn:active {
    outline: none !important;
