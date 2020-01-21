@@ -113,8 +113,15 @@
 	</body>
 	
 	<script>
-	$(function() {
-			$('.lazy').Lazy();
+	$('.lazy').Lazy({
+			// your configuration goes here
+			scrollDirection: 'vertical',
+			effect: 'fadeIn',
+			visibleOnly: true,
+			threshold: 1000,
+			onError: function(element) {
+					console.log('error loading ' + element.data('src'));
+			}
 	});
 	</script>
 	
