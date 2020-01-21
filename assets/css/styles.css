@@ -66,16 +66,20 @@ main {
     border-left: .2em solid transparent;
 }
 
-.social-btn{
+.social-btn {
 		position: relative;
 		margin: 0;
 		padding: 0;
 }
 
-.social-btn > li > a {
+header .social-btn > li > a {
 		margin: 0 8px;
 		position: relative;
 		overflow: hidden;
+}
+
+main .social-btn i {
+    margin-right: 5px;
 }
 
 .gallery {
