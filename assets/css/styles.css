@@ -32,7 +32,8 @@ a:hover {
 
 .nav-item a,
 .social-btn a {
-		color: #444;
+	font-family: "Roboto Slab", serif;
+	color: #444;
 }
 
 li {
