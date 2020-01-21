@@ -27,7 +27,7 @@ a:focus,
 a:active,
 a:hover {
 	text-decoration: none;
-	color: #d94f4d;
+	color: #d62c2f !important;
 }
 
 .nav-item a,
