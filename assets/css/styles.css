@@ -34,11 +34,12 @@ li {
 	display: inline-block;
 }
 
+/*
 @media (min-width: 1200px) {
     .container {
         max-width: 768px;
     }
-}
+}*/
 
 .btn:focus,
 .btn:active {
