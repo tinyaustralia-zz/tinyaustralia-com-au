@@ -54,8 +54,12 @@ li {
     border-radius: 100%;
 }
 
-.card {
-    border: 1px solid #dee2e6 !important;
+.dropdown-toggle::after {
+    margin-left: .280em;
+    vertical-align: .280em;
+    border-top: .2em solid;
+    border-right: .2em solid transparent;
+    border-left: .2em solid transparent;
 }
 
 .social-btn{
