@@ -38,6 +38,7 @@
 				  <p>Tiny Australia is a development project with plans to build a tiny-house village and mindfulness retreat in the heart of nature. Inspired by the ancient practice of Vipassana meditation, and drawing upon the minimalist way of life, the retreat will offer its guests various activities focussed on mental wellbeing, relaxation, and connection.</p>
 				</div>
 				<div class="col-md-4">
+					
 					<div class="card card-body bg-light">
 						<h5>Follow our progress</h5>
 						<form action="https://formspree.io/xknjywog" method="POST">
@@ -45,12 +46,81 @@
 						  <button class="btn btn-success btn-block" type="submit" >Join mailing list</button>
 						</form>
 				</div>
+				
+				<div class="card card-body bg-light">
+					<div class="chart-wrapper">
+					  <ul class="chart-values">
+					    <li>Jan</li>
+					    <li>Feb</li>
+					    <li>Mar</li>
+					    <li>Apr</li>
+					    <li>May</li>
+					    <li>Jun</li>
+					    <li>Jul</li>
+							<li>Aug</li>
+					    <li>Sep</li>
+					    <li>Oct</li>
+					    <li>Nov</li>
+					    <li>Dec</li>
+					  </ul>
+					  <ul class="chart-bars">
+							<li data-duration="jan½-apr" data-color="#b03532">Builders</li>
+					    <li data-duration="jan½-aug½" data-color="#b03532">Find land</li>
+					    <li data-duration="aug½-sep½" data-color="#33a8a5">Pre-approval</li>
+					    <li data-duration="sep-oct½" data-color="#30997a">Secure land</li>
+					  </ul>
+					</div>
+				</div>
+				
 			</div>
   	</main>
 		
 		<footer role="footer" class="footer border-top" data-include="includes/footer.html"></footer>
 
 	</body>
+	
+	<script>
+	function createChart(e) {
+  const days = document.querySelectorAll(".chart-values li");
+  const tasks = document.querySelectorAll(".chart-bars li");
+  const daysArray = [...days];
+
+  tasks.forEach(el => {
+    const duration = el.dataset.duration.split("-");
+    const startDay = duration[0];
+    const endDay = duration[1];
+    let left = 0,
+      width = 0;
+
+    if (startDay.endsWith("½")) {
+      const filteredArray = daysArray.filter(day => day.textContent == startDay.slice(0, -1));
+      left = filteredArray[0].offsetLeft + filteredArray[0].offsetWidth / 2;
+    } else {
+      const filteredArray = daysArray.filter(day => day.textContent == startDay);
+      left = filteredArray[0].offsetLeft;
+    }
+
+    if (endDay.endsWith("½")) {
+      const filteredArray = daysArray.filter(day => day.textContent == endDay.slice(0, -1));
+      width = filteredArray[0].offsetLeft + filteredArray[0].offsetWidth / 2 - left;
+    } else {
+      const filteredArray = daysArray.filter(day => day.textContent == endDay);
+      width = filteredArray[0].offsetLeft + filteredArray[0].offsetWidth - left;
+    }
+
+    // apply css
+    el.style.left = `${left}px`;
+    el.style.width = `${width}px`;
+    if (e.type == "load") {
+      el.style.backgroundColor = el.dataset.color;
+      el.style.opacity = 1;
+    }
+  });
+}
+
+window.addEventListener("load", createChart);
+window.addEventListener("resize", createChart);
+</script>
 	
 	<!-- HTML Includes -->
 	<script>includeHTML();</script>
