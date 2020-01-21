@@ -43,9 +43,13 @@ li {
 
 @media (min-width: 1200px) {
     .container {
-        max-width: 970px4
+        max-width: 970px;
     }
- 80px 0}
+}
+
+.text-center {
+    display: block;
+}
 
 main {
 	margin: 40px 0 100px 0;
