@@ -20,8 +20,8 @@ h6 {
 }
 
 a {
-	color: #d5393f;
-	font-weight: 400;
+	color: #444;
+	text-decoration: underline;
 }
 
 a:focus,
