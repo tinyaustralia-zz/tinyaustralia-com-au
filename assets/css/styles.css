@@ -37,8 +37,12 @@ li {
 
 @media (min-width: 1200px) {
     .container {
-        max-width: 970px;
+        max-width: 970px4
     }
+ 80px 0}
+
+main {
+	margin: 40px 0 80px 0;
 }
 
 .btn:focus,
