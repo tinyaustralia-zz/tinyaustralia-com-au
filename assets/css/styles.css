@@ -50,6 +50,10 @@ li {
     top: 30px;
 }
 
+main {
+	margin: 40px 0 100px 0;
+}
+
 .btn:focus,
 .btn:active {
    outline: none !important;
