@@ -84,15 +84,6 @@ main {
 	border-left: .2em solid transparent;
 }
 
-.jumbotron {
-	background-image: url(/assets/images/og.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 350px;
-	width: auto;
-}
-
 .lead {
     font-size: inherit;
     font-weight: inherit;
