@@ -44,6 +44,16 @@ li {
 	top: 30px;
 }
 
+.dropcaps {
+    font-family: "Roboto Slab", serif;
+    font-size: 5rem;
+    font-weight: 500;
+    color: #c44641;
+    float: left;
+    line-height: 60px;
+	padding: 5px 10px 0 0;
+}
+
 main {
 	margin: 40px 0 100px 0;
 }
