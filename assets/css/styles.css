@@ -28,6 +28,7 @@ a:hover {
 .nav-item a,
 .social-btn a {
 	font-family: "Roboto Slab", serif;
+	font-weight: 400;
 }
 
 li {
