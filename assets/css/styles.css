@@ -109,17 +109,6 @@ main .social-btn i {
 	}
 }
 
-.gallery .pics {
-	-webkit-transition: all 350ms ease;
-	transition: all 350ms ease;
-}
-
-.gallery .animation {
-	-webkit-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
-}
-
 .footer {
 	position: absolute;
 	bottom: 0;
