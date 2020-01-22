@@ -84,12 +84,12 @@ main {
 	border-left: .2em solid transparent;
 }
 
-/*
 .jumbotron {
-	background-color: #f8f9fa;
-    border: 1px solid #e5e6e7;
+	background-image: url("/assets/images/og.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
-*/
 
 .lead {
     font-size: inherit;
