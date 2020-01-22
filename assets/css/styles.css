@@ -127,8 +127,12 @@ main .social-btn i {
 
 .footer {
 	position: absolute;
-  bottom: 0;
-  width: 100%;
-  line-height: 60px;
-  background-color: #f5f5f5;
+	bottom: 0;
+	width: 100%;
+	line-height: 60px;
+	background-color: #f5f5f5;
+}
+
+.footer ul {
+    margin-bottom: 0;
 }
