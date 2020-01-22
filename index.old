@@ -1,0 +1,28 @@
+---
+title:	Tiny Australia
+---
+
+{% include header.html %}
+			
+	<!-- Title -->
+	<div class="jumbotron">
+		<h1 class="display-5">... a place to dissolve ego, and discover absolute truth.</h1>
+		<p><b>"There are two ways to be rich: One is by acquiring much, and the other is by desiring little." </b><i>Jackie French Koller, 1948</i></p>
+	</div>
+
+	<!-- Body -->
+	<p><span class="dropcaps">T</span>iny Australia are a community of independent seekers that have chosen a path of deeper connection and purpose. Our philosophy is seamingly <i>simple</i>; by embracing minimalism (living with less<sup><a href="https://youtu.be/6Pm0Mn0-jYU" target="_blank">1</a></sup>), we become more joyful, abundant, and generous (the counter-intuitive nature of life). On one hand we are blessed with the exciting progression of technological advancements, while <i>counter-intuitively</i>, we are struggling more and more with depression and anxiety. Why is this?</p>
+		
+	<p>Inspired by the ancient practice of Vipassana meditation and moved by the adventurous nature of tiny-house living, we have been working hard at creating a new kind of wellness centre, a meditation retreat that offers guests an experience of self-awareness, uninterupted nature, and minimalist living in a comfortable and cosy tiny-house, without all the distractions. Although our aspirations to manifest such a dream are slowing bearing fruit, we are heavily focussed on achieving this goal over the course of the next few years, with an estimated completion date of late 2021.</p>
+	
+	<p>For more information, please contact us via our social media links below.</p>
+
+	<hr class="mt-5" />
+
+	<ul class="social-btn my-4">
+		<li><a href="https://www.instagram.com/tinyaustralia" target="_blank"><i class="fab fa-instagram"></i>Instagram</a></li>
+		<li><a href="https://www.facebook.com/tinyaustralia" target="_blank"><i class="fab fa-facebook"></i>Facebook</a></li>
+		<li><a href="https://www.twitter.com/tinyaustralia" target="_blank"><i class="fab fa-twitter"></i>Twitter</a></li>
+	</ul>
+
+{% include footer.html %}
