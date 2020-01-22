@@ -54,6 +54,11 @@ li {
     padding: 5px 8px 0 0;
 }
 
+sup {
+    font-weight: 700;
+    padding: 2px;
+}
+
 main {
 	margin: 40px 0 100px 0;
 }
