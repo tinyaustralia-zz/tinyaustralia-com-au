@@ -3,70 +3,11 @@ title:	Template
 permalink:	/template/
 ---
 
-<!DOCTYPE HTML>
-<html lang="en-au">
+{% include head.html %}
 
-	<head>
-
-		<!-- Title -->
-		<title>Tiny Australia</title>
-		
-		<!-- Viewport -->
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="/assets/images/favicon.png" type="image/png" rel="icon">
-		
-		<!-- CSS -->
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700,800,900|Roboto:300,400,700&display=swap">
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css" rel="stylesheet">
-		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
-		<link href="/assets/css/styles.css" type="text/css" rel="stylesheet">
-		
-		<!-- JS -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" type="text/javascript"></script>
-		<script src="https://kit.fontawesome.com/adf33064b1.js" type="text/javascript"></script>
-		<script src="/assets/js/googletags.js" type="text/javascript"></script>
-
-	</head>
-
-	<body>
-
-		<!-- Header -->
-		<header role="nav" class="header border-bottom">{% include header.html %}</header>
-
-		<!-- Page Wrapper -->
-		<main role="main" class="container">
-			<div class="row">
-
-				<!-- Primary Column -->
-				<div class="primary col-md-8">
-					
-					<!-- Content Wrapper -->
-					<content>
+	<!-- Title -->
+	<h1 class="display-5">{{ page.title }}</h1>
+	
+	<!-- Body -->
 						
-						<!-- Title -->
-						<h1 class="display-5">...</h1>
-						
-						<!-- Body -->
-						
-						
-					</content>
-					
-
-				</div>
-
-				<!-- Sidebar Column -->
-				<div role="sidebar" class="sidebar col-md-4">{% include sidebar.html %}</div>
-
-			</div>
-		</main>
-
-		<!-- Footer -->
-		<footer role="footer" class="footer border-top">{% include footer.html %}</footer>
-
-	</body>
-
-	{% include googletags.html %}
-
-</html>
+{% include foot.html %}
