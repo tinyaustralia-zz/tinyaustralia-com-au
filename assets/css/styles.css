@@ -75,6 +75,12 @@ main {
     border: 1px solid #b2ebf2;
 }
 
+.lead {
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: "Roboto Slab", serif;
+}
+
 .social-btn {
 	margin: 0;
 	padding: 0;
