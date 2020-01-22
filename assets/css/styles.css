@@ -89,7 +89,8 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 250px;
+    height: 873px;
+	width: auto;
 }
 
 .lead {
