@@ -23,7 +23,13 @@ a:focus,
 a:active,
 a:hover {
 	text-decoration: none;
-	color: #d62c2f !important;
+	color: #d62c2f;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #444;
+    background-color: #e7ebee;
 }
 
 li {
