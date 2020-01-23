@@ -1,3 +1,5 @@
+name: Tiny Australia
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap

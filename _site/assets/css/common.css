@@ -1,0 +1,149 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 1rem;
+	font-weight: 600;
+}
+
+a {
+	color: #d62c2f;
+}
+
+a:focus,
+a:active,
+a:hover {
+	text-decoration: none;
+	color: #d62c2f;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.text-center {
+	display: block;
+}
+
+.sticky-top {
+	top: 30px;
+}
+
+.dropcaps {
+	font-family: "Roboto Slab", serif;
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: #c44641;
+    float: left;
+    line-height: 38px;
+    padding: 5px 8px 0 0;
+}
+
+sup {
+    font-weight: 700;
+    padding: 2px;
+}
+
+main {
+	margin: 40px 0 100px 0;
+}
+
+.btn:focus,
+.btn:active {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.navbar-brand img.logo {
+	width: 35px;
+	height: 35px;
+	border: 1px solid #dd6764;
+	border-radius: 100%;
+}
+
+.dropdown-toggle::after {
+	margin-left: .280em;
+	vertical-align: .280em;
+	border-top: .2em solid;
+	border-right: .2em solid transparent;
+	border-left: .2em solid transparent;
+}
+
+.lead {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.quote {
+	background-color: #f8f9fa;
+    border: 1px solid #e5e5e6;
+    padding: 20px;
+    margin: 40px 0;
+}
+
+.social-btn {
+	margin: 0;
+	padding: 0;
+}
+
+.social-btn a {
+	color: #444444;
+	font-weight: 500;
+}
+
+header .social-btn > li > a {
+	margin-left: 12px;
+}
+
+main .social-btn > li > a {
+	margin-right: 12px;
+	position: relative;
+	overflow: hidden;
+}
+
+main .social-btn i {
+	margin-right: 8px;
+}
+
+.gallery {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-width: 33%;
+	-moz-column-width: 33%;
+	column-width: 33%;
+}
+
+@media (max-width: 450px) {
+	.gallery {
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+		-webkit-column-width: 100%;
+		-moz-column-width: 100%;
+		column-width: 100%;
+	}
+}
+
+.footer {
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+	font-size: 15px;
+}
+
+.footer ul {
+	margin: 0;
+	padding: 0;
+}
+
+.footer a {
+	margin-right: 12px;
+}
