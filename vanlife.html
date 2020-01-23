@@ -1,80 +1,76 @@
 ---
 title: Vanlife Chronicles
+layout: default
 permalink: /vanlife/
 display_title: 1
 ---
 
-{% include header.html %}
-	
-	<!-- Body -->
-	<div class="mb-3">
-		<button type="button" class="btn btn-light mb-1 filter" data-rel="all">All</button>
-		<button type="button" class="btn btn-light mb-1 filter" data-rel="insulation">Insulation</button>
-		<button type="button" class="btn btn-light mb-1 filter" data-rel="wallfloor">Panelling</button>
-		<button type="button" class="btn btn-light mb-1 filter" data-rel="bedcabinets">Fixtures</button>
-		<button type="button" class="btn btn-light mb-1 filter" data-rel="electric">Electrics</button>
-		<button type="button" class="btn btn-light mb-1 filter" data-rel="schematic">Schematics</button>
-		<button type="button" class="btn btn-light mb-1 filter" data-rel="complete">Completed</button>
-	</div>
-	
-	<div class="gallery" id="gallery">
-		<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/01-stripout/01a.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/01-stripout/01b.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/02-insulation/02a.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/02-insulation/02b.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/02-insulation/02c.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/03-framing/03a.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/03-framing/03b.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/04-barrier/04a.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/04-barrier/04b.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/04-barrier/04c.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/04-barrier/04d.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all wallfloor"><img class="img-fluid" src="/assets/images/vanlife/05-wall/05a.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all wallfloor"><img class="img-fluid" src="/assets/images/vanlife/05-wall/05b.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all wallfloor"><img class="img-fluid" src="/assets/images/vanlife/06-floor/06a.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all wallfloor"><img class="img-fluid" src="/assets/images/vanlife/06-floor/06b.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all wallfloor"><img class="img-fluid" src="/assets/images/vanlife/06-floor/06c.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all wallfloor"><img class="img-fluid" src="/assets/images/vanlife/06-floor/06d.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/07-bed/07a.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/07-bed/07b.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/07-bed/07c.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/07-bed/07d.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/08-headcab/08a.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/08-headcab/08b.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/08-headcab/08c.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/09-floorcab/09a.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/09-floorcab/09b.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/09-floorcab/09c.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/09-floorcab/09d.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/10-drawers/10a.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/10-drawers/10b.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/11-paint/11a.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/11-paint/11b.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/11-paint/11c.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/11-paint/11d.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/11-paint/11e.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/13-benchtop/13a.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/13-benchtop/13b.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/13-benchtop/13b.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/14-desk/14a.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/14-desk/14b.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all electric"><img class="img-fluid" src="/assets/images/vanlife/12-electrics/12a.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all electric"><img class="img-fluid" src="/assets/images/vanlife/12-electrics/12b.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all electric"><img class="img-fluid" src="/assets/images/vanlife/12-electrics/12c.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all electric"><img class="img-fluid" src="/assets/images/vanlife/12-electrics/12d.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all electric"><img class="img-fluid" src="/assets/images/vanlife/12-electrics/12e.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all electric"><img class="img-fluid" src="/assets/images/vanlife/12-electrics/12f.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all schematic"><img class="img-fluid" src="/assets/images/vanlife/00-schematic/schematic-all.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all schematic"><img class="img-fluid" src="/assets/images/vanlife/00-schematic/schematic-kitchen.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all schematic"><img class="img-fluid" src="/assets/images/vanlife/00-schematic/schematic-sink.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all schematic"><img class="img-fluid" src="/assets/images/vanlife/00-schematic/schematic-fridge.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all schematic"><img class="img-fluid" src="/assets/images/vanlife/00-schematic/schematic-desk.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all schematic"><img class="img-fluid" src="/assets/images/vanlife/00-schematic/schematic-bed.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all complete"><img class="img-fluid" src="/assets/images/vanlife/15-finishings/15a.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all complete"><img class="img-fluid" src="/assets/images/vanlife/15-finishings/15b.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all complete"><img class="img-fluid" src="/assets/images/vanlife/15-finishings/15c.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all complete"><img class="img-fluid" src="/assets/images/vanlife/15-finishings/15d.jpg" alt="Card image cap"></div>
-		<div class="mb-3 pics all complete"><img class="img-fluid" src="/assets/images/vanlife/15-finishings/15e.jpg" alt="Card image cap"></div>
-	</div>
+<div class="mb-3">
+	<button type="button" class="btn btn-light mb-1 filter" data-rel="all">All</button>
+	<button type="button" class="btn btn-light mb-1 filter" data-rel="insulation">Insulation</button>
+	<button type="button" class="btn btn-light mb-1 filter" data-rel="wallfloor">Panelling</button>
+	<button type="button" class="btn btn-light mb-1 filter" data-rel="bedcabinets">Fixtures</button>
+	<button type="button" class="btn btn-light mb-1 filter" data-rel="electric">Electrics</button>
+	<button type="button" class="btn btn-light mb-1 filter" data-rel="schematic">Schematics</button>
+	<button type="button" class="btn btn-light mb-1 filter" data-rel="complete">Completed</button>
+</div>
 
-{% include footer.html %}
+<div class="gallery" id="gallery">
+	<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/01-stripout/01a.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/01-stripout/01b.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/02-insulation/02a.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/02-insulation/02b.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/02-insulation/02c.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/03-framing/03a.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/03-framing/03b.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/04-barrier/04a.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/04-barrier/04b.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/04-barrier/04c.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/04-barrier/04d.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all wallfloor"><img class="img-fluid" src="/assets/images/vanlife/05-wall/05a.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all wallfloor"><img class="img-fluid" src="/assets/images/vanlife/05-wall/05b.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all wallfloor"><img class="img-fluid" src="/assets/images/vanlife/06-floor/06a.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all wallfloor"><img class="img-fluid" src="/assets/images/vanlife/06-floor/06b.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all wallfloor"><img class="img-fluid" src="/assets/images/vanlife/06-floor/06c.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all wallfloor"><img class="img-fluid" src="/assets/images/vanlife/06-floor/06d.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/07-bed/07a.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/07-bed/07b.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/07-bed/07c.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/07-bed/07d.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/08-headcab/08a.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/08-headcab/08b.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/08-headcab/08c.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/09-floorcab/09a.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/09-floorcab/09b.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/09-floorcab/09c.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/09-floorcab/09d.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/10-drawers/10a.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/10-drawers/10b.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/11-paint/11a.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/11-paint/11b.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/11-paint/11c.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/11-paint/11d.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/11-paint/11e.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/13-benchtop/13a.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/13-benchtop/13b.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/13-benchtop/13b.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/14-desk/14a.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all bedcabinets"><img class="img-fluid" src="/assets/images/vanlife/14-desk/14b.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all electric"><img class="img-fluid" src="/assets/images/vanlife/12-electrics/12a.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all electric"><img class="img-fluid" src="/assets/images/vanlife/12-electrics/12b.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all electric"><img class="img-fluid" src="/assets/images/vanlife/12-electrics/12c.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all electric"><img class="img-fluid" src="/assets/images/vanlife/12-electrics/12d.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all electric"><img class="img-fluid" src="/assets/images/vanlife/12-electrics/12e.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all electric"><img class="img-fluid" src="/assets/images/vanlife/12-electrics/12f.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all schematic"><img class="img-fluid" src="/assets/images/vanlife/00-schematic/schematic-all.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all schematic"><img class="img-fluid" src="/assets/images/vanlife/00-schematic/schematic-kitchen.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all schematic"><img class="img-fluid" src="/assets/images/vanlife/00-schematic/schematic-sink.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all schematic"><img class="img-fluid" src="/assets/images/vanlife/00-schematic/schematic-fridge.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all schematic"><img class="img-fluid" src="/assets/images/vanlife/00-schematic/schematic-desk.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all schematic"><img class="img-fluid" src="/assets/images/vanlife/00-schematic/schematic-bed.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all complete"><img class="img-fluid" src="/assets/images/vanlife/15-finishings/15a.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all complete"><img class="img-fluid" src="/assets/images/vanlife/15-finishings/15b.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all complete"><img class="img-fluid" src="/assets/images/vanlife/15-finishings/15c.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all complete"><img class="img-fluid" src="/assets/images/vanlife/15-finishings/15d.jpg" alt="Card image cap"></div>
+	<div class="mb-3 pics all complete"><img class="img-fluid" src="/assets/images/vanlife/15-finishings/15e.jpg" alt="Card image cap"></div>
+</div>
