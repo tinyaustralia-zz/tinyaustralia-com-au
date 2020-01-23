@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
 	color: #d62c2f;
+	font-weight: 400;
 }
 
 a:focus,
@@ -23,12 +24,6 @@ a:active,
 a:hover {
 	text-decoration: none;
 	color: #d62c2f !important;
-}
-
-.nav-item a,
-.social-btn a {
-	font-family: "Roboto Slab", serif;
-	font-weight: 400;
 }
 
 li {
