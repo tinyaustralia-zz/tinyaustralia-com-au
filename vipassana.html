@@ -5,6 +5,11 @@ display_title: false
 ---
 
 {% include header.html %}
+
+	<!-- Title -->
+	{% if page.display_title == "true" %}
+		<h1 class="display-5">>{{ page.title }}</h1>
+	{% endif %}
 	
 	<!-- Body -->
 	<p>This diary is coming soon.</p>
