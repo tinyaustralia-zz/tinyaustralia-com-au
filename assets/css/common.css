@@ -8,8 +8,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Roboto Slab", serif;
-	margin-bottom: 1em;
+	margin-bottom: 1rem;
+	font-weight: 600;
 }
 
 a {
@@ -21,12 +21,6 @@ a:active,
 a:hover {
 	text-decoration: none;
 	color: #d62c2f;
-}
-
-.dropdown-item.active,
-.dropdown-item:active {
-    color: #444;
-    background-color: #e7ebee;
 }
 
 li {
@@ -85,7 +79,6 @@ main {
 .lead {
     font-size: inherit;
     font-weight: inherit;
-    font-family: "Roboto Slab", serif;
 }
 
 .quote {
