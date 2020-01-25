@@ -16,7 +16,9 @@ display_title: 1
 </div>
 
 <div class="gallery" id="gallery">
-	<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/01-stripout/01a.jpg" alt="Card image cap"></div>
+	<a href="/assets/images/vanlife/01-stripout/01a.jpg" data-toggle="lightbox">
+		<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/01-stripout/01a.jpg" alt="Card image cap"></div>
+	</a>
 	<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/01-stripout/01b.jpg" alt="Card image cap"></div>
 	<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/02-insulation/02a.jpg" alt="Card image cap"></div>
 	<div class="mb-3 pics all insulation"><img class="img-fluid" src="/assets/images/vanlife/02-insulation/02b.jpg" alt="Card image cap"></div>
@@ -74,3 +76,10 @@ display_title: 1
 	<div class="mb-3 pics all complete"><img class="img-fluid" src="/assets/images/vanlife/15-finishings/15d.jpg" alt="Card image cap"></div>
 	<div class="mb-3 pics all complete"><img class="img-fluid" src="/assets/images/vanlife/15-finishings/15e.jpg" alt="Card image cap"></div>
 </div>
+
+<script>
+	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+	    event.preventDefault();
+	    $(this).ekkoLightbox();
+	});
+</script>
