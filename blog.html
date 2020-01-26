@@ -19,7 +19,8 @@ display_title: 1
 				<span class="article-meta"><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> | {{ post.category }}</small></span>
 			</div>
 		</a>
-		{{ post.excerpt | strip_html | strip_newlines | truncate: 170 }}  
+		<div class="mb-5">
+			{{ post.excerpt | strip_html | strip_newlines | truncate: 170 }}
 		</div>
 	{% endfor %}
 </div>
