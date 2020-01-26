@@ -5,7 +5,19 @@ permalink: /blog/
 display_title: 1
 ---
 
-{% for post in site.posts %}
-	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-	<p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> | {{ post.category }} </small></p>
-{% endfor %}
+<div class="row">
+	{% for post in site.posts %}
+		<div class="col-md-6 article">
+			{% if post.featured-image %}
+				<div class="featured-image rounded mb-3" style="background-image: url({{ post.featured-image }})"></div>
+			{% else %}
+				<div class="featured-image rounded mb-3" style="background-image: url({{ site.url }}/assets/images/og.jpg)"></div>
+			{% endif %}
+			<div class="mb-3">
+				<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+				<small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> | {{ post.category }} </small>
+			</div>
+			{{ post.excerpt | strip_html | strip_newlines | truncate: 156 }}  
+		</div>
+	{% endfor %}
+</div>
