@@ -62,7 +62,7 @@ main {
 }
 
 .navbar-light .navbar-brand {
-    color: #c44641;
+    margin-right: 0;
 }
 
 .navbar-brand img.logo {
