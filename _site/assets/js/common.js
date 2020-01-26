@@ -10,9 +10,3 @@ $(function() {
 			}, 300);
 	});
 });
-
-//set active navigation after click
-$(".nav-link").on("click", (event) => {
-  $(".navbar-nav").find(".active").removeClass('active');
-  $(event.target).parent().addClass('active');
-});
