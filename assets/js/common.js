@@ -11,7 +11,8 @@ $(function() {
 	});
 });
 
-$(document).ready(function() {
-	$('li.active').removeClass('active');
-	$('a[href="' + location.pathname + '"]').closest('li').addClass('active'); 
+//set active navigation after click
+$(".nav-link").on("click", (event) => {
+  $(".navbar-nav").find(".active").removeClass('active');
+  $(event.target).parent().addClass('active');
 });
