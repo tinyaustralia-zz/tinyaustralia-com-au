@@ -34,6 +34,12 @@ h2, .h2 {
     color: #444;
 }
 
+.recent-posts-item {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
 a {
 	color: #d62c2f;
 }
