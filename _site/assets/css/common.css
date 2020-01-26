@@ -74,6 +74,7 @@ main {
 	color: #c44641 !important;
     font-size: 1.2rem;
     line-height: 1.2;
+	margin-right: 15px;
 }
 
 .navbar-brand img.logo {
