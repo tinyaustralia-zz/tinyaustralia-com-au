@@ -22,7 +22,7 @@ display_title: 1
 					<h2>{{ post.title }}</h2>
 					<div class="article-meta mb-2"><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> | {{ post.category }}</small></div>
 				</a>
-				{{ post.excerpt | strip_html | strip_newlines | truncate: 130 }} 
+				{{ post.excerpt | strip_html | strip_newlines | truncate: 100 }} 
 			</div> 
 			
 		</div>
