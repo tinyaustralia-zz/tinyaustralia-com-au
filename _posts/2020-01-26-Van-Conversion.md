@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Van Conversion"
-description: "Mercedes-Benz Sprinter Van Conversion into Campervan."
-category: vanlife
+title: "Vipassana Diary"
+description: "My time spent at Vipassana"
+category: introspection
 tags: [vanlife, van conversion, van build]
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: Blog
 layout: post
-permalink: /blog/
+permalink: /blog
 display_title: 1
 ---
 
-{% for post in site.posts %}	
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> | {{ post.category }} </small></p>			
-{% endfor %}	
+{% for post in site.posts %}
+	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	<p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> | {{ post.category }} </small></p>
+{% endfor %}
