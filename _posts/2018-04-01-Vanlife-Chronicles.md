@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title: "Vanlife Chronicles"
 description: "Mercedes-Benz Sprinter Van Conversion into Campervan."
 category: vanlife

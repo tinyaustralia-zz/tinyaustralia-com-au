@@ -1,0 +1,30 @@
+{% include header.html %}
+
+	<!-- Page Wrapper -->
+	<main id="primary" role="main" class="container">
+		<div class="row">
+
+			<!-- Primary Column -->
+			<div class="primary col-md-8">
+				
+				<!-- Content Wrapper -->
+				<content>
+					
+					<!-- Title -->
+					{% if page.display_title == 1 %}
+						<h1 class="display-5 mb-5">{{ page.title }}</h1>
+					{% endif %}
+					
+					{{ content }}
+
+				</content>
+				
+			</div>
+
+			<!-- Sidebar Column -->
+			<div id="secondary" role="sidebar" class="sidebar col-md-4">{% include sidebar-blog.html %}</div>
+
+		</div>
+	</main>
+
+{% include footer.html %}

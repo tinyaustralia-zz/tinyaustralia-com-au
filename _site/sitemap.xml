@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/vanlife/2018/04/01/Sprinter-Van-Conversion.html</loc>
+<loc>http://localhost:4000/vanlife/2018/04/01/Vanlife-Chronicles.html</loc>
 <lastmod>2018-04-01T00:00:00+09:30</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/introspection/2020/01/26/Van-Conversion.html</loc>
+<loc>http://localhost:4000/introspection/2020/01/26/Vipassana-Diaries.html</loc>
 <lastmod>2020-01-26T00:00:00+09:30</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/author/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/blog</loc>
+<loc>http://localhost:4000/blog/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/template/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/vanlife/</loc>

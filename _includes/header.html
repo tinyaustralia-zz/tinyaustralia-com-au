@@ -62,14 +62,13 @@
 							<li class="nav-item"><a class="nav-link" href="/">retreat</a></li>
 							<li class="nav-item"><a class="nav-link" href="/vanlife">vanlife</a></li>
 							<li class="nav-item"><a class="nav-link" href="/vipassana">vipassana</a></li>
-							<li class="nav-item"><a class="nav-link" href="/author">about</a></li>
-							<li class="nav-item"><a class="nav-link" href="/blog">blog</a></li>
+							<!-- <li class="nav-item"><a class="nav-link" href="/blog">blog</a></li> -->
 						</ul>
 						
-						<ul class="social-btn">
-							<li><a href="https://www.instagram.com/tinyaustralia" target="_blank"><i class="fab fa-instagram"></i></a></li>
-							<li><a href="https://www.facebook.com/tinyaustralia" target="_blank"><i class="fab fa-facebook"></i></a></li>
-							<li><a href="https://www.twitter.com/tinyaustralia" target="_blank"><i class="fab fa-twitter"></i></a></li>
+						<ul class="navbar-nav">
+							<li class="nav-item"><a class="nav-link" href="https://www.instagram.com/tinyaustralia" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							<li class="nav-item"><a class="nav-link" href="https://www.facebook.com/tinyaustralia" target="_blank"><i class="fab fa-facebook"></i></a></li>
+							<li class="nav-item"><a class="nav-link" href="https://www.twitter.com/tinyaustralia" target="_blank"><i class="fab fa-twitter"></i></a></li>
 						</ul>
 						
 					</div>
@@ -77,51 +76,3 @@
 				</div>
 			</nav>
 		</header>
-
-		<!-- Page Wrapper -->
-		<main role="main" class="container">
-			<div class="row">
-
-				<!-- Primary Column -->
-				<div class="primary col-md-8">
-					
-					<!-- Content Wrapper -->
-					<content>
-						
-						<!-- Title -->
-						{% if page.display_title == 1 %}
-							<h1 class="display-5 mb-5">{{ page.title }}</h1>
-						{% endif %}
-						
-						{{ content }}
-
-					</content>
-					
-				</div>
-
-				<!-- Sidebar Column -->
-				<div role="sidebar" class="sidebar col-md-4">{% include sidebar-blog.html %}</div>
-
-			</div>
-		</main>
-
-		<footer class="footer py-4 bg-light border-top">
-			<div class="container">
-				<div class="d-flex">
-					
-					<ul>
-						<li><a class="text-muted" href="#">Legal Stuff</a></li>
-						<li><a class="text-muted" href="#">Privacy</a></li>
-					</ul>
-					
-					<div class="ml-auto text-muted">© Tiny Australia</div>
-					
-				</div>
-			</div>
-		</footer>
-
-	</body>
-
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FRN8PS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
-</html>
