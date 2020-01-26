@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Sprinter Van Conversion"
+title: "Vanlife Chronicles"
 description: "Mercedes-Benz Sprinter Van Conversion into Campervan."
+permalink: /blog/
 category: vanlife
 tags: [vanlife, van conversion, van build]
-permalink: /blog/
 ---
 
 Coming soon.
