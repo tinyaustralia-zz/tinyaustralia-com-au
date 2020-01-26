@@ -7,19 +7,25 @@ display_title: 1
 
 <div class="row">
 	{% for post in site.posts %}
-		<a href="{{ post.url }}">
-			<div class="col-md-6 article">
-			{% if post.featured-image %}
-				<div class="featured-image rounded mb-3" style="background-image: url({{ post.featured-image }})"></div>
-			{% else %}
-				<div class="featured-image rounded mb-3" style="background-image: url({{ site.url }}/assets/images/og.jpg)"></div>
-			{% endif %}
+		<div class="col-md-6 article">
+			
+			<a href="{{ post.url }}">
+				{% if post.featured-image %}
+					<div class="featured-image rounded mb-3" style="background-image: url({{ post.featured-image }})"></div>
+				{% else %}
+					<div class="featured-image rounded mb-3" style="background-image: url({{ site.url }}/assets/images/og.jpg)"></div>
+				{% endif %}
+			</a>
+			
 			<div class="mb-3">
-				<h4>{{ post.title }}</h4>
-				<span class="article-meta"><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> | {{ post.category }}</small></span>
+				<a href="{{ post.url }}">
+					<h4>{{ post.title }}</h4>
+					<span class="article-meta"><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> | {{ post.category }}</small></span>
+				</a>
 			</div>
-		</a>
-		{{ post.excerpt | strip_html | strip_newlines | truncate: 140 }}  
+			
+			{{ post.excerpt | strip_html | strip_newlines | truncate: 140 }}  
+			
 		</div>
 	{% endfor %}
 </div>
