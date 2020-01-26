@@ -61,11 +61,16 @@ main {
 	box-shadow: none !important;
 }
 
+.navbar-light .navbar-brand {
+    color: #c44641;
+}
+
 .navbar-brand img.logo {
 	width: 35px;
-	height: 35px;
-	border: 1px solid #dd6764;
-	border-radius: 100%;
+    height: 35px;
+    margin-right: 3px;
+    border: 1px solid #dd6764;
+    border-radius: 100%;
 }
 
 .dropdown-toggle::after {
