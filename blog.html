@@ -1,5 +1,5 @@
 ---
-title: Latest posts
+title: Blog
 layout: blog
 permalink: /blog
 display_title: 1
@@ -7,7 +7,7 @@ display_title: 1
 
 <div class="row">
 	{% for post in site.posts %}
-		<div class="col-md-6 .article mb-5">
+		<div class="article col-md-6 mb-5">
 			
 			<a href="{{ post.url }}">
 				{% if post.featured-image %}
@@ -17,14 +17,13 @@ display_title: 1
 				{% endif %}
 			</a>
 			
-			<div class="mb-3">
+			<div class="px-1 mb-3">
 				<a href="{{ post.url }}">
 					<h2>{{ post.title }}</h2>
-					<span class="article-meta"><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> | {{ post.category }}</small></span>
+					<div class="article-meta mb-2"><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> | {{ post.category }}</small></div>
 				</a>
-			</div>
-			
-			{{ post.excerpt | strip_html | strip_newlines | truncate: 140 }}  
+				{{ post.excerpt | strip_html | strip_newlines | truncate: 130 }} 
+			</div> 
 			
 		</div>
 	{% endfor %}
