@@ -1,13 +1,13 @@
 ---
 title: Blog
 layout: blog
-permalink: /blog/
+permalink: /blog
 display_title: 1
 ---
 
 <div class="row">
 	{% for post in site.posts %}
-		<div class="col-md-6 article">
+		<div class="col-md-6 article mb-5">
 			
 			<a href="{{ post.url }}">
 				{% if post.featured-image %}

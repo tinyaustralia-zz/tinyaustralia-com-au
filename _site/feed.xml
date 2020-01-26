@@ -1,80 +1,1285 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-26T22:13:53+09:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tiny Australia</title><entry><title type="html">10-Day Vipassana Meditation</title><link href="http://localhost:4000/vipassana/" rel="alternate" type="text/html" title="10-Day Vipassana Meditation" /><published>2019-09-10T00:00:00+09:30</published><updated>2019-09-10T00:00:00+09:30</updated><id>http://localhost:4000/Vipassana-Diaries</id><content type="html" xml:base="http://localhost:4000/vipassana/">&lt;p class=&quot;mb-5&quot;&gt;The page is currently under construction. I will soon be publishing a personal diary/encounter of my time spent at this 10-day silent meditation in Queensland, Australia. My notes are very deep and frankly quite messy in their current form. Once I have been able to digest and process into something more articulated, I'll be publishing here. Thanks for your patience.</content><author><name></name></author><category term="Introspection" /><category term="introspection" /><category term="meditation" /><category term="vipassana" /><category term="mindfulness" /><summary type="html">The page is currently under construction. I will soon be publishing a personal diary/encounter of my time spent at this 10-day silent meditation in Queensland, Australia. My notes are very deep and frankly quite messy in their current form. Once I have been able to digest and process into something more articulated, I'll be publishing here. Thanks for your patience.</summary></entry><entry><title type="html">Sprinter Van Conversion</title><link href="http://localhost:4000/vanlife/" rel="alternate" type="text/html" title="Sprinter Van Conversion" /><published>2018-04-01T00:00:00+09:30</published><updated>2018-04-01T00:00:00+09:30</updated><id>http://localhost:4000/Vanlife-Chronicles</id><content type="html" xml:base="http://localhost:4000/vanlife/">&lt;p class=&quot;mb-5&quot;&gt;The page is currently under construction. More information will be available soon, but you may enjoy some snaps taking during the conversion of this Mercedes-Benz 2015 316 CDI MWB Sprinter Van. It is currently my tiny-home on wheels that I'm living and travelling around Australia in. I will be writing more about the process and some useful tips which may help you if you're thinking about doing your own conversion. Thanks for your patience.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-26T23:19:27+09:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tiny Australia</title><entry><title type="html">5 Months Experience in Darwin</title><link href="http://localhost:4000/blog/vipassana" rel="alternate" type="text/html" title="5 Months Experience in Darwin" /><published>2019-09-23T00:00:00+09:30</published><updated>2019-09-23T00:00:00+09:30</updated><id>http://localhost:4000/blog/Darwin-Travels</id><content type="html" xml:base="http://localhost:4000/blog/vipassana">&lt;p class=&quot;mb-5&quot;&gt;This blog post will be coming soon. I am heavily invested in developing this website and focussing on core functionality. Once I'm satisfied with everything, I'll start focussing on writing all about my experiences in Darwin over the past 5 months. Stay tuned.</content><author><name></name></author><category term="Travel" /><category term="travel" /><category term="darwin" /><category term="northern territory" /><summary type="html">This blog post will be coming soon. I am heavily invested in developing this website and focussing on core functionality. Once I'm satisfied with everything, I'll start focussing on writing all about my experiences in Darwin over the past 5 months. Stay tuned.</summary></entry><entry><title type="html">10 Day Vipassana Meditation</title><link href="http://localhost:4000/blog/vipassana" rel="alternate" type="text/html" title="10 Day Vipassana Meditation" /><published>2019-09-10T00:00:00+09:30</published><updated>2019-09-10T00:00:00+09:30</updated><id>http://localhost:4000/blog/Vipassana-Diaries</id><content type="html" xml:base="http://localhost:4000/blog/vipassana">&lt;p class=&quot;mb-5&quot;&gt;The page is currently under construction. I will soon be publishing a personal diary/encounter of my time spent at this 10-day silent meditation in Queensland, Australia. My notes are very deep and frankly quite messy in their current form. Once I have been able to digest and process into something more articulated, I'll be publishing here. Thanks for your patience.</content><author><name></name></author><category term="Introspection" /><category term="introspection" /><category term="meditation" /><category term="vipassana" /><category term="mindfulness" /><summary type="html">The page is currently under construction. I will soon be publishing a personal diary/encounter of my time spent at this 10-day silent meditation in Queensland, Australia. My notes are very deep and frankly quite messy in their current form. Once I have been able to digest and process into something more articulated, I'll be publishing here. Thanks for your patience.</summary></entry><entry><title type="html">Sprinter Van Conversion</title><link href="http://localhost:4000/blog/vanlife" rel="alternate" type="text/html" title="Sprinter Van Conversion" /><published>2018-04-01T00:00:00+09:30</published><updated>2018-04-01T00:00:00+09:30</updated><id>http://localhost:4000/blog/Vanlife-Chronicles</id><content type="html" xml:base="http://localhost:4000/blog/vanlife">&lt;p class=&quot;mb-5&quot;&gt;The page is currently under construction. More information will be available soon, but you may enjoy some snaps taking during the conversion of this Mercedes-Benz 2015 316 CDI MWB Sprinter Van. It is currently my tiny-home on wheels that I'm living and travelling around Australia in. I will be writing more about the process and some useful tips which may help you if you're thinking about doing your own conversion. Thanks for your patience.&lt;/p&gt;
 
 &lt;div class=&quot;mb-3&quot;&gt;
 	&lt;button type=&quot;button&quot; class=&quot;btn btn-light mb-1 filter&quot; data-rel=&quot;all&quot;&gt;All&lt;/button&gt;
 	&lt;button type=&quot;button&quot; class=&quot;btn btn-light mb-1 filter&quot; data-rel=&quot;insulation&quot;&gt;Insulation&lt;/button&gt;
-	&lt;button type=&quot;button&quot; class=&quot;btn btn-light mb-1 filter&quot; data-rel=&quot;wallfloor&quot;&gt;Panelling&lt;/button&gt;
-	&lt;button type=&quot;button&quot; class=&quot;btn btn-light mb-1 filter&quot; data-rel=&quot;bedcabinets&quot;&gt;Fixtures&lt;/button&gt;
-	&lt;button type=&quot;button&quot; class=&quot;btn btn-light mb-1 filter&quot; data-rel=&quot;electric&quot;&gt;Electrics&lt;/button&gt;
-	&lt;button type=&quot;button&quot; class=&quot;btn btn-light mb-1 filter&quot; data-rel=&quot;schematic&quot;&gt;Schematics&lt;/button&gt;
-	&lt;button type=&quot;button&quot; class=&quot;btn btn-light mb-1 filter&quot; data-rel=&quot;complete&quot;&gt;Completed&lt;/button&gt;
+	&lt;button type=&quot;button&quot; class=&quot;btn btn-light mb-1 filter&quot; data-rel=&quot;panelling&quot;&gt;Panelling&lt;/button&gt;
+	&lt;button type=&quot;button&quot; class=&quot;btn btn-light mb-1 filter&quot; data-rel=&quot;fixtures&quot;&gt;Fixtures&lt;/button&gt;
+	&lt;button type=&quot;button&quot; class=&quot;btn btn-light mb-1 filter&quot; data-rel=&quot;electrics&quot;&gt;Electrics&lt;/button&gt;
+	&lt;button type=&quot;button&quot; class=&quot;btn btn-light mb-1 filter&quot; data-rel=&quot;schematics&quot;&gt;Schematics&lt;/button&gt;
+	&lt;button type=&quot;button&quot; class=&quot;btn btn-light mb-1 filter&quot; data-rel=&quot;completed&quot;&gt;Completed&lt;/button&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;gallery&quot; id=&quot;gallery&quot;&gt;
-	&lt;a class=&quot;mb-3 pics all insulation&quot; href=&quot;/assets/images/vanlife/01-stripout/01a.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
-		&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/01-stripout/01a.jpg&quot; alt=&quot;Card image cap&quot;&gt;
-	&lt;/a&gt;
-	&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/01-stripout/01b.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/02-insulation/02a.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/02-insulation/02b.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/02-insulation/02c.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/03-framing/03a.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/03-framing/03b.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/04-barrier/04a.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/04-barrier/04b.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/04-barrier/04c.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/04-barrier/04d.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all wallfloor&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/05-wall/05a.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all wallfloor&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/05-wall/05b.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all wallfloor&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/06-floor/06a.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all wallfloor&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/06-floor/06b.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all wallfloor&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/06-floor/06c.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all wallfloor&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/06-floor/06d.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/07-bed/07a.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/07-bed/07b.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/07-bed/07c.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/07-bed/07d.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/08-headcab/08a.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/08-headcab/08b.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/08-headcab/08c.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/09-floorcab/09a.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/09-floorcab/09b.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/09-floorcab/09c.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/09-floorcab/09d.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/10-drawers/10a.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/10-drawers/10b.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/11-paint/11a.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/11-paint/11b.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/11-paint/11c.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/11-paint/11d.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/11-paint/11e.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/13-benchtop/13a.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/13-benchtop/13b.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/13-benchtop/13b.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/14-desk/14a.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all bedcabinets&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/14-desk/14b.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all electric&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/12-electrics/12a.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all electric&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/12-electrics/12b.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all electric&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/12-electrics/12c.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all electric&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/12-electrics/12d.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all electric&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/12-electrics/12e.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all electric&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/12-electrics/12f.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all schematic&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/00-schematic/schematic-all.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all schematic&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/00-schematic/schematic-kitchen.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all schematic&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/00-schematic/schematic-sink.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all schematic&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/00-schematic/schematic-fridge.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all schematic&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/00-schematic/schematic-desk.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all schematic&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/00-schematic/schematic-bed.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all complete&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/15-finishings/15a.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all complete&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/15-finishings/15b.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all complete&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/15-finishings/15c.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all complete&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/15-finishings/15d.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;mb-3 pics all complete&quot;&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/vanlife/15-finishings/15e.jpg&quot; alt=&quot;Card image cap&quot;&gt;&lt;/div&gt;
+	
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/insulation/01a.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/insulation/01a.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/insulation/01b.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/insulation/01b.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/insulation/02a.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/insulation/02a.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/insulation/02b.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/insulation/02b.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/insulation/02c.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/insulation/02c.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/insulation/03a.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/insulation/03a.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/insulation/03b.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/insulation/03b.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/insulation/04a.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/insulation/04a.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/insulation/04b.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/insulation/04b.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/insulation/04c.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/insulation/04c.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all insulation&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/insulation/04d.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/insulation/04d.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all panelling&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/panelling/05a.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/panelling/05a.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all panelling&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/panelling/05b.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/panelling/05b.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all panelling&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/panelling/06a.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/panelling/06a.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all panelling&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/panelling/06b.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/panelling/06b.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all panelling&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/panelling/06c.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/panelling/06c.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all panelling&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/panelling/06d.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/panelling/06d.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/07a.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/07a.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/07b.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/07b.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/07c.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/07c.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/07d.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/07d.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/08a.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/08a.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/08b.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/08b.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/08c.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/08c.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/09a.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/09a.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/09b.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/09b.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/09c.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/09c.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/09d.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/09d.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/10a.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/10a.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/10b.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/10b.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/11a.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/11a.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/11b.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/11b.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/11c.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/11c.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/11d.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/11d.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/11e.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/11e.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/13a.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/13a.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/13b.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/13b.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/13c.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/13c.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/14a.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/14a.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all fixtures&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/fixtures/14b.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/fixtures/14b.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all electrics&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/electrics/12a.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/electrics/12a.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all electrics&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/electrics/12b.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/electrics/12b.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all electrics&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/electrics/12c.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/electrics/12c.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all electrics&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/electrics/12d.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/electrics/12d.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all electrics&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/electrics/12e.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/electrics/12e.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all electrics&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/electrics/12f.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/electrics/12f.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all schematics&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/schematics/schematic-all.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/schematics/schematic-all.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all schematics&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/schematics/schematic-bed.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/schematics/schematic-bed.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all schematics&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/schematics/schematic-desk.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/schematics/schematic-desk.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all schematics&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/schematics/schematic-fridge.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/schematics/schematic-fridge.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all schematics&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/schematics/schematic-kitchen.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/schematics/schematic-kitchen.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all schematics&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/schematics/schematic-sink.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/schematics/schematic-sink.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all completed&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/completed/15a.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/completed/15a.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all completed&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/completed/15b.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/completed/15b.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all completed&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/completed/15c.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/completed/15c.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all completed&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/completed/15d.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/completed/15d.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+			&lt;div class=&quot;mb-3 pics all completed&quot;&gt;
+				&lt;a href=&quot;/assets/images/blog/vanlife/completed/15e.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+					&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/images/blog/vanlife/completed/15e.jpg&quot; alt=&quot;Card image cap&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+	    
+	
+
 &lt;/div&gt;
 
 &lt;script&gt;
+	
+	$(function() {
+		var selectedClass = &quot;&quot;;
+		$(&quot;.filter&quot;).click(function(){
+			selectedClass = $(this).attr(&quot;data-rel&quot;);
+		});
+	});
+	
 	$(document).on('click', '[data-toggle=&quot;lightbox&quot;]', function(event) {
 	    event.preventDefault();
 	    $(this).ekkoLightbox();
 	});
+	
 &lt;/script&gt;</content><author><name></name></author><category term="Vanlife" /><category term="vanlife" /><category term="van conversion" /><category term="van build" /><summary type="html">The page is currently under construction. More information will be available soon, but you may enjoy some snaps taking during the conversion of this Mercedes-Benz 2015 316 CDI MWB Sprinter Van. It is currently my tiny-home on wheels that I'm living and travelling around Australia in. I will be writing more about the process and some useful tips which may help you if you're thinking about doing your own conversion. Thanks for your patience. All Insulation Panelling Fixtures Electrics Schematics Completed</summary></entry></feed>
