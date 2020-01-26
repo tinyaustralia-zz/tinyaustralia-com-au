@@ -26,6 +26,10 @@ h2, .h2 {
     margin: 0;
 }
 
+.article-meta {
+    color: #444;
+}
+
 a {
 	color: #d62c2f;
 }

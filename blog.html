@@ -16,7 +16,7 @@ display_title: 1
 			{% endif %}
 			<div class="mb-3">
 				<h4>{{ post.title }}</h4>
-				<small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> | {{ post.category }} </small>
+				<span class="article-meta"><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> | {{ post.category }}</small></span>
 			</div>
 		</a>
 		{{ post.excerpt | strip_html | strip_newlines | truncate: 156 }}  
