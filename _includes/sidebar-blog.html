@@ -3,10 +3,12 @@
 	<div class="card card-body bg-light mb-3">
 		<h5>Recent posts</h5>
 		<ul>
-			{% for post in site.posts limit:5 %}
-			<li class="recent-posts">
-				<a class="recent-posts-item" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-			</li>
+			{% for post in site.posts limit:5 %}  
+			<small>
+				<li class="recent-posts">
+					<a class="recent-posts-item" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+				</li>
+			</small>
 			{% endfor %}  
 		</ul>
 	</div>
