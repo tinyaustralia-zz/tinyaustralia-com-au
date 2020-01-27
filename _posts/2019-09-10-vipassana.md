@@ -1,5 +1,5 @@
 ---
-title:				"10-Day Vipassana Meditation"
+title:				"My 10-Day Vipassana Silent Meditation Experience & Survival Guide"
 description:		"Dhamma Rasmi, Queensland Vipassana Centre"
 layout:				single
 show_title:			true

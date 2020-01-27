@@ -4,27 +4,30 @@ description:		"welcome to the #tinyau blog"
 layout:				blog
 permalink:			/blog
 show_title:			true
-show_description:	false
+show_description:	true
 ---
 
 {% for post in site.posts %}
-	<div class="article">
+	<div class="article mb-5">
 		
-		<a href="{{ post.url }}">
-			{% if post.featured-image %}
-				<div class="featured-image rounded mb-3" style="background-image: url({{ post.featured-image }})"></div>
-			{% else %}
-				<div class="featured-image rounded mb-3" style="background-image: url({{ site.url }}/assets/images/og.jpg)"></div>
-			{% endif %}
-		</a>
-		
-		<div class="px-1 mb-5">
+		<div class="mb-3">
+			<h2>{{ post.title }}</h2>
+		</div> 		
+
+		<div class="featured-image">
 			<a href="{{ post.url }}">
-				<h2>{{ post.title }}</h2>
-				<div class="article-meta mb-2"><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> | {{ post.category }}</small></div>
+				{% if post.featured-image %}
+					<div class="rounded mb-3" style="background-image: url({{ post.featured-image }})"></div>
+				{% else %}
+					<div class="rounded mb-3" style="background-image: url({{ site.url }}/assets/images/og.jpg)"></div>
+				{% endif %}
 			</a>
-			{{ post.excerpt | strip_html | strip_newlines | truncate: 180 }} 
-		</div> 
+		</div>
+		
+		<div class="article-meta mb-1"><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> | {{ post.category }}</small></div>
+		<div class="excerpt">
+			{{ post.excerpt | strip_html | strip_newlines | truncate: 180 }}
+		</div>
 		
 	</div>
 {% endfor %}

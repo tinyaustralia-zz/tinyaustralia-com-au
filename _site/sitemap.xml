@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/vanlife/Sprinter-Campervan-Conversion/</loc>
+<loc>http://localhost:4000/vanlife/vanbuild/</loc>
 <lastmod>2018-04-01T00:00:00+09:30</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/introspection/10-day-vipassana-meditation/</loc>
+<loc>http://localhost:4000/introspection/vipassana/</loc>
 <lastmod>2019-09-10T00:00:00+09:30</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/travel/5-months-in-darwin-northern-territory/</loc>
+<loc>http://localhost:4000/travel/darwin/</loc>
 <lastmod>2019-09-23T00:00:00+09:30</lastmod>
 </url>
 <url>
