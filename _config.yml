@@ -1,4 +1,30 @@
-plugins: [jekyll-paginate, jekyll-seo-tag]
+title:          "Tiny Australia"
+tagline:        "Lose yourself in a tiny home."
+description:    "Tiny Australia is a new kind of wellness centre, a meditation retreat a tiny-house experience focussed helping you develop self-awareness."
+canonical:      https://tinyaustralia.com.au
 
-timezone: Australia/Brisbane
-permalink: /:categories/:title/
+# Owner/author information
+name:           Marco Moretti
+bio:            "Mindfulness practisioner and teacher with a focus on developing self-awareness."
+email:          hello@tinyaustralia.com.au
+twitter:        tinyaustralia
+github:         tinyaustralia
+instagram:      tinyaustralia
+
+# Location
+location:       "Brisbane, Australia"
+timezone:       Australia/Brisbane
+
+# Configuration
+permalink:      /:categories/:title/
+plugins:
+                - jekyll-sitemap
+                - jekyll-paginate
+                - jekyll-seo-tag
+tools:
+    standards:  "HTML, SCSS, Jekyll"
+    software:   "git"
+opengraph:
+    locale:     en_AU
+sass:
+    style:      :compressed

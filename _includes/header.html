@@ -4,7 +4,21 @@
 	<head>
 
 		<!-- Title -->
-		<title>{{ page.title }}</title>
+		<title>
+			{% if page.url == "/index.html" %}
+				{{ site.title }}
+			{% else %}
+				{{ page.title }}
+			{% endif %}
+		</title>
+		
+		<meta itemprop="description" name="description" content="
+			{% if page.url == "/index.html" %}
+				{{ site.description | truncate: 160 }}
+			{% else %}
+				{{ page.description | truncate: 160 }}
+			{% endif %}
+		"/>
 		
 		<!-- Viewport -->
 		<meta charset="UTF-8">
