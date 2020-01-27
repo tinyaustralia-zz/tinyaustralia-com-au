@@ -94,6 +94,10 @@ main {
 	box-shadow: none !important;
 }
 
+.navbar {
+    padding: 0.325rem 1rem;
+}
+
 .navbar-light .navbar-brand {
     margin-right: 0;
 }
