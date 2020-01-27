@@ -291,3 +291,23 @@ main {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
+
+.article-image {
+    height: 132px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.circled {
+    padding: 10px;
+    background-color: #fafafa;
+    border: 1px solid #e5e5e5;
+    border-radius: 100%;
+}
+
+.btn-dark a {
+    color: #fff !important;
+    text-decoration: none !important;
+}

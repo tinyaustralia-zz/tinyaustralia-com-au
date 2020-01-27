@@ -9,35 +9,49 @@ show_description:	true
 
 {% for post in site.posts %}
 	<div class="article mb-5">
-		
 
-		<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>	
+		<h2 class="article-title">
+			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		</h2>
 
-		<div class="featured-image my-3">
-			{% if post.featured-image %}
-				<div class="rounded" style="background-image: url({{ post.featured-image }})"></div>
-			{% else %}
-				<div class="rounded" style="background-image: url({{ site.url }}/assets/images/og.jpg)"></div>
-			{% endif %}
-		</div>
-		
-		<div class="article-meta w-100 d-flex my-3">
-			<div class="mr-auto">
-				<div class="post-meta bg-white"><strong>Published:</strong> {{ post.date | date: "%B %e, %Y" }}</div>
-				<div class="post-meta bg-white"><strong>Category:</strong> {{ post.category }}</div>
+		<div class="article-content">
+			<div class="row">
+				
+				<div class="article-left col-md-4">
+					
+					{% if post.featured-image %}
+						<div class="article-image rounded mb-3" style="background-image: url({{ post.featured-image }})"></div>
+					{% else %}
+						<div class="article-image rounded mb-3" style="background-image: url({{ site.url }}/assets/images/og.jpg)"></div>
+					{% endif %}
+					
+					<div class="article-share mb-2">
+						{% include share.html %}
+					</div>
+					
+				</div>
+				
+				<div class="article-right col-md-8">
+						
+					<div class="article-excerpt mb-2">
+						{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}
+					</div>
+						
+					<div class="article-meta mb-3">
+						<div class="post-meta bg-white"><strong>Published:</strong> {{ post.date | date: "%B %e, %Y" }}</div>
+						<div class="post-meta bg-white"><strong>Category:</strong> {{ post.category }}</div>
+					</div>
+					
+					<button class="btn btn-dark">
+						<a href="{{ site.baseurl }}{{ post.url }}" class="link-red link-underline">Continue reading...</a>
+					</button>
+					
+				</div>
+				
 			</div>
-			<div class="ml-auto">
-				<div class="post-meta bg-white">{% include share.html %}</div>
-			</div>
 		</div>
 		
-		<div class="excerpt my-3">
-			{{ post.excerpt | strip_html | strip_newlines | truncate: 180 }}
-		</div>
-		
-		<a href="{{ site.baseurl }}{{ post.url }}" class="link-red link-underline">Continue reading...</a>
-		
+		<hr class="mb-5" />
+
 	</div>
-
-	<hr class="mb-5" />
 {% endfor %}
