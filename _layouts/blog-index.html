@@ -2,20 +2,16 @@
 
 	<!-- Page Wrapper -->
 	<main id="primary" role="main" class="container">
-		<div class="row">
-			
-			<!-- Sidebar Column -->
-			<div id="secondary" role="sidebar" class="sidebar col-lg-3">{% include sidebar-blog.html %}</div>
 
 			<!-- Primary Column -->
-			<div class="primary col-lg-9">
+			<div class="primary col-md-6 offset-md-3">
 				
 				<!-- Content Wrapper -->
 				<content>
 					
 					<!-- Title -->
 					{% if page.display_title == 1 %}
-						<h1 class="display-5 mb-5">{{ page.title }}</h1>
+						<h1 class="display-5 mb-5 text-center">{{ page.title }}</h1>
 					{% endif %}
 					
 					{{ content }}
@@ -24,7 +20,6 @@
 				
 			</div>
 
-		</div>
 	</main>
 
 {% include footer.html %}

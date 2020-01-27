@@ -34,6 +34,12 @@ h2, .h2 {
     color: #444;
 }
 
+.recent-posts-item {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
 a {
 	color: #d62c2f;
 }
@@ -153,6 +159,10 @@ main {
 		-moz-column-width: 100%;
 		column-width: 100%;
 	}
+}
+
+.card {
+    border: 1px solid #e4e7eb;
 }
 
 .footer {
