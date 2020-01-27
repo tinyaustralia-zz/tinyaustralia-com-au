@@ -1,3 +1,7 @@
+@media only screen and (min-width : 768px) {
+    .container { max-width: 991px; }
+}
+
 html {
 	position: relative;
 	min-height: 100%;
@@ -5,16 +9,23 @@ html {
 
 body {
 	font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+	color: 444444;
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Slab", serif;
 	margin-bottom: 1rem;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 h1, .h1,
 h2, .h2 {
     font-family: "Roboto Slab", serif;
+}
+
+.roboto-slab {
+	font-family: "Roboto Slab", serif;
 }
 
 .btn-light {
@@ -46,12 +57,11 @@ h2, .h2 {
 }
 
 .text-muted {
-    color: #aaaaaa !important;
+    color: #aaa !important;
 }
 
 .post-meta {
     padding: 4px 8px;
-    background-color: #f8f9fa;
     border: 1px solid #dfe3e6;
     border-radius: 3px;
 }
@@ -63,7 +73,7 @@ h2, .h2 {
 }
 
 a {
-    color: #d34a41;
+    color: #444444;
     text-decoration: none;
 }
 
@@ -129,7 +139,7 @@ main {
 }
 
 .navbar-light .navbar-brand {
-    margin-right: 0;
+    margin-right: 15;
 }
 
 .navbar-brand-text {
@@ -160,10 +170,8 @@ main {
     font-weight: inherit;
 }
 
-.quote {
-	background-color: #f8f9fa;
-    border: 1px solid #e5e5e6;
-    padding: 20px;
+.bg-white {
+    background-color: #fafafa !important;
 }
 
 .featured-image div {
@@ -203,6 +211,7 @@ main {
     bottom: 0;
     width: 100%;
 	font-size: 15px;
+	background-color: #e9dcbe;
 }
 
 .footer ul {
@@ -210,6 +219,39 @@ main {
 	padding: 0;
 }
 
-.footer a {
-	margin-right: 12px;
+
+/* Blockquote */
+
+.blockquote-container {
+    position: relative;
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+.blockquote-container blockquote {
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+    font-style: italic;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.blockquote-container blockquote:first-child:before {
+	content: '\201C';
+    color: #c44641;
+    font-size: 7.5em;
+    font-weight: 700;
+    opacity: .12;
+    position: absolute;
+    top: -80px;
+    left: 0;
+}
+
+.blockquote-container cite {
+    color: #aaa;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }

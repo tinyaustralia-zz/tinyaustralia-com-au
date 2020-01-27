@@ -1,1 +1,4 @@
+plugins: [jekyll-paginate, jekyll-seo-tag]
+
+timezone: Australia/Brisbane
 permalink: /:categories/:title/
