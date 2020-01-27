@@ -1,0 +1,12 @@
+---
+title:				"5-months in Darwin, Norther Territory"
+description:		""
+layout:				single
+show_title:			true
+show_description:	false
+category:			Travel
+tags:				[travel, darwin, northern territory, australia]
+featured-image:		"/assets/images/blog/darwin/darwin.jpg"
+---
+
+This blog post will be coming soon. I am heavily invested in developing this website and focussing on core functionality. Once I'm satisfied with everything, I'll start focussing on writing all about my experiences in Darwin over the past 5 months. Stay tuned.

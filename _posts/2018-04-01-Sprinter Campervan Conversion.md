@@ -2,7 +2,6 @@
 title:				"Sprinter Van Conversion"
 description:		"Mercedes-Benz 2015 Sprinter 316 CDI (MWB) Van"
 layout:				single
-permalink:			/blog/vanlife/sprinter-van-conversion
 show_title:			true
 show_description:	true
 category:			Vanlife
@@ -10,10 +9,9 @@ tags:				[vanlife, van conversion, van build]
 featured-image:		"/assets/images/blog/vanlife/completed/15c.jpg"
 ---
 
+The page is currently under construction. More information will be available soon, but you may enjoy some snaps taking during the conversion of this Mercedes-Benz 2015 316 CDI MWB Sprinter Van. It is currently my tiny-home on wheels that I'm living and travelling around Australia in. I will be writing more about the process and some useful tips which may help you if you're thinking about doing your own conversion. Thanks for your patience.
 
-<p class="mb-5">The page is currently under construction. More information will be available soon, but you may enjoy some snaps taking during the conversion of this Mercedes-Benz 2015 316 CDI MWB Sprinter Van. It is currently my tiny-home on wheels that I'm living and travelling around Australia in. I will be writing more about the process and some useful tips which may help you if you're thinking about doing your own conversion. Thanks for your patience.</p>
-
-<div class="mb-3">
+<div class="mt-5 mb-4">
 	<button type="button" class="btn btn-light mb-1 filter" data-rel="all">All</button>
 	<button type="button" class="btn btn-light mb-1 filter" data-rel="insulation">Insulation</button>
 	<button type="button" class="btn btn-light mb-1 filter" data-rel="panelling">Panelling</button>

@@ -2,21 +2,23 @@
 
 	<!-- Page Wrapper -->
 	<main id="primary" role="main" class="container">
+		<div class="row"
 
-		<!-- Primary Column -->
-		<div class="primary col-md-6 offset-md-3">
-			
-			{% include title.html %}
-			
-			<!-- Content Wrapper -->
-			<content class="page-content">
+			<!-- Primary Column -->
+			<div class="primary col-md-6 offset-md-3">
 				
-				{{ content }}
+				{% include title.html %}
+				
+				<!-- Content Wrapper -->
+				<content class="page-content">
+					
+					{{ content }}
 
-			</content>
+				</content>
+				
+			</div>
 			
 		</div>
-			
 	</main>
 
 {% include footer.html %}

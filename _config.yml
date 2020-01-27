@@ -1,6 +1,1 @@
-name: Tiny Australia
-
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+permalink: /:categories/:title/
