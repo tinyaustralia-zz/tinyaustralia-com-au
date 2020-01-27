@@ -77,6 +77,11 @@ h2, .h2 {
     border-color: #c44641;
 }
 
+.btn-success {
+    background-color: #8BC34A;
+    border-color: #8BC34A;
+}
+
 a {
     color: #444444;
     text-decoration: none;
