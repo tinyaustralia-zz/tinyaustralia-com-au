@@ -72,6 +72,11 @@ h2, .h2 {
     overflow: hidden;
 }
 
+.btn-danger {
+    background-color: #c44641;
+    border-color: #c44641;
+}
+
 a {
     color: #444444;
     text-decoration: none;
