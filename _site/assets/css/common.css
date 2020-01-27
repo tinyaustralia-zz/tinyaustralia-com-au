@@ -45,6 +45,17 @@ h2, .h2 {
     color: #444;
 }
 
+.text-muted {
+    color: #aaaaaa !important;
+}
+
+.post-meta {
+    padding: 4px 8px;
+    background-color: #f8f9fa;
+    border: 1px solid #dfe3e6;
+    border-radius: 3px;
+}
+
 .recent-posts-item {
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -52,19 +63,18 @@ h2, .h2 {
 }
 
 a {
-	color: #00bcd4;
-	text-decoration: underline;
+    color: #d34a41;
+    text-decoration: none;
 }
 
 a:focus,
 a:active,
-a:hover {
-	text-decoration: none;
-	color: #0097a7;
-}
-
-.nav-link {
-	text-decoration: none !important;
+a:hover,
+.navlink:focus,
+.navlink:active,
+.navlink:hover {
+	text-decoration: underline !important;
+	color: #d34a41;
 }
 
 ul {

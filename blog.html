@@ -10,24 +10,29 @@ show_description:	true
 {% for post in site.posts %}
 	<div class="article mb-5">
 		
-		<div class="mb-3">
-			<h2>{{ post.title }}</h2>
-		</div> 		
 
-		<div class="featured-image">
+		<h2>{{ post.title }}</h2>	
+
+		<div class="featured-image my-3">
 			{% if post.featured-image %}
-				<div class="rounded mb-3" style="background-image: url({{ post.featured-image }})"></div>
+				<div class="rounded" style="background-image: url({{ post.featured-image }})"></div>
 			{% else %}
-				<div class="rounded mb-3" style="background-image: url({{ site.url }}/assets/images/og.jpg)"></div>
+				<div class="rounded" style="background-image: url({{ site.url }}/assets/images/og.jpg)"></div>
 			{% endif %}
 		</div>
 		
-		<div class="article-meta mb-1"><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> | {{ post.category }}</small></div>
-		<div class="excerpt mb-3">
+		<div class="article-meta my-3">
+			<small>
+				<span class="post-meta"><strong>Published:</strong> {{ post.date | date: "%B %e, %Y" }}</span>
+				<span class="post-meta"><strong>Category:</strong> {{ post.category }}</span>
+			</small>
+		</div>
+		
+		<div class="excerpt my-3">
 			{{ post.excerpt | strip_html | strip_newlines | truncate: 180 }}
 		</div>
 		
-			<a href="{{ site.baseurl }}{{ post.url }}">Continue reading...</a>
+		<a href="{{ site.baseurl }}{{ post.url }}">Continue reading...</a>
 		
 	</div>
 
