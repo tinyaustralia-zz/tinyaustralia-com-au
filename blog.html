@@ -25,6 +25,7 @@ show_description:	true
 			<small>
 				<span class="post-meta bg-white"><strong>Published:</strong> {{ post.date | date: "%B %e, %Y" }}</span>
 				<span class="post-meta bg-white"><strong>Category:</strong> {{ post.category }}</span>
+				<span class="post-meta bg-white">{% include share.html %}</span>
 			</small>
 		</div>
 		
