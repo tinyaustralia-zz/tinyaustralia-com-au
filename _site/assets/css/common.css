@@ -17,8 +17,13 @@ h2, .h2 {
     font-family: "Roboto Slab", serif;
 }
 
-.page-title h2 {
-    font-size: 1.5rem;
+.page-title .title {
+    font-size: 2.2rem;
+    text-decoration: underline;
+}
+
+.page-title .description {
+    font-size: 1.2rem;
 }
 
 .article h1,

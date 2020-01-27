@@ -7,17 +7,7 @@
 			<!-- Primary Column -->
 			<div class="primary col-md-8">
 
-				<div class="page-title">
-					<!-- Title -->
-					{% if page.display_title == 1 %}
-						<h1 class="display-5 mb-2">{{ page.title }}</h1>
-					{% endif %}
-					
-					<!-- Description -->
-					{% if page.display_description == 1 %}
-						<h2 class="mb-5">{{ page.description }}</h2>
-					{% endif %}
-				</div>
+				{% include title.html %}
 				
 				<!-- Content Wrapper -->
 				<content class="page-content">
