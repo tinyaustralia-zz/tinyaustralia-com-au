@@ -72,6 +72,10 @@ h2, .h2 {
 	font-size: 12px;
 }
 
+.p-4 {
+    padding: 2.5rem !important;
+}
+
 .recent-posts-item {
     white-space: nowrap;
     text-overflow: ellipsis;
