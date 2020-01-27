@@ -97,6 +97,11 @@ a:hover,
 	color: #d34a41;
 }
 
+.link-red {
+    color: #c44641;
+    text-decoration: underline;
+}
+
 ul {
     margin: 0;
     padding: 0;
