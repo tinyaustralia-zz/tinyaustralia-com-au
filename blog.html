@@ -15,19 +15,21 @@ show_description:	true
 		</div> 		
 
 		<div class="featured-image">
-			<a href="{{ post.url }}">
-				{% if post.featured-image %}
-					<div class="rounded mb-3" style="background-image: url({{ post.featured-image }})"></div>
-				{% else %}
-					<div class="rounded mb-3" style="background-image: url({{ site.url }}/assets/images/og.jpg)"></div>
-				{% endif %}
-			</a>
+			{% if post.featured-image %}
+				<div class="rounded mb-3" style="background-image: url({{ post.featured-image }})"></div>
+			{% else %}
+				<div class="rounded mb-3" style="background-image: url({{ site.url }}/assets/images/og.jpg)"></div>
+			{% endif %}
 		</div>
 		
 		<div class="article-meta mb-1"><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> | {{ post.category }}</small></div>
-		<div class="excerpt">
+		<div class="excerpt mb-3">
 			{{ post.excerpt | strip_html | strip_newlines | truncate: 180 }}
 		</div>
 		
+			<a href="{{ site.baseurl }}{{ post.url }}">Continue reading...</a>
+		
 	</div>
+
+	<hr class="mb-5" />
 {% endfor %}
