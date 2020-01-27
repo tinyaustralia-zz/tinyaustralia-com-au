@@ -21,13 +21,15 @@ show_description:	true
 			{% endif %}
 		</div>
 		
-		<div class="article-meta my-3">
-			<small>
-				<span class="post-meta bg-white"><strong>Published:</strong> {{ post.date | date: "%B %e, %Y" }}</span>
-				<span class="post-meta bg-white"><strong>Category:</strong> {{ post.category }}</span>
-				<span class="post-meta bg-white">{% include share.html %}</span>
-			</small>
-		</div>
+<div class="article-meta w-100 d-flex my-3">
+	<div class="post-meta-wrapper">
+		<div class="post-meta bg-white"><strong>Published:</strong> {{ post.date | date: "%B %e, %Y" }}</div>
+		<div class="post-meta bg-white"><strong>Category:</strong> {{ post.category }}</div>
+	</div>
+	<div class="ml-auto">
+		<div class="post-meta bg-white">{% include share.html %}</div>
+	</div>
+</div>
 		
 		<div class="excerpt my-3">
 			{{ post.excerpt | strip_html | strip_newlines | truncate: 180 }}
