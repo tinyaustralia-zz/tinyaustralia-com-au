@@ -47,9 +47,13 @@ h2, .h2 {
 .article h4,
 .article h5,
 .article h6 {
-	font-size: 1.3rem;
-    margin: 0;
+	font-size: 1.5rem;
 	line-height: 1.4;
+	text-decoration: none;
+}
+
+.article a {
+	text-decoration: none;
 }
 
 .article-meta {
@@ -84,7 +88,6 @@ h2, .h2 {
 
 a {
     color: #444444;
-    text-decoration: none;
 }
 
 a:focus,
@@ -98,8 +101,11 @@ a:hover,
 }
 
 .link-red {
-    color: #c44641;
-    text-decoration: underline;
+    color: #c44641 !important;
+}
+
+.link-underline {
+    text-decoration: underline !important;
 }
 
 ul {
@@ -118,6 +124,10 @@ li {
 
 .sticky-top {
 	top: 30px;
+}
+
+hr {
+    border-top: 1px dashed rgba(0, 0, 0, 0.1);
 }
 
 .dropcaps {
@@ -151,6 +161,11 @@ main {
 
 .footer .navbar-nav {
     display: inline-block;
+}
+
+.footer .nav-link {
+    padding: 0 !important;
+    margin: 0 12px 0 0 !important;
 }
 
 .navbar-light .navbar-brand {
