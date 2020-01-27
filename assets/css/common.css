@@ -21,13 +21,13 @@ h2, .h2 {
     border-color: #ecedf0;
 }
 
-.page-title .title {
-    font-size: 2.2rem;
-    text-decoration: underline;
-}
-
 .page-title .description {
+	display: inline-block;
     font-size: 1.2rem;
+    background-color: #c44641;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 0.15rem;
 }
 
 .article h1,
@@ -121,7 +121,11 @@ main {
 }
 
 .navbar {
-    height: 60px;
+    min-height: 60px;
+}
+
+.footer .navbar-nav {
+    display: inline-block;
 }
 
 .navbar-light .navbar-brand {
