@@ -7,28 +7,20 @@ html {
 	min-height: 100%;
 }
 
+.roboto {
+	font-family: "Roboto", sans-serif;
+}
+
 .roboto-slab {
 	font-family: "Roboto Slab", serif;
 }
 
-.page-title .description {
+.badge-red {
 	display: inline-block;
-    font-size: 1.2rem;
-    background-color: #c44641;
     color: #fff;
+    background-color: #c44641;
     padding: 5px 10px;
     border-radius: 0.15rem;
-}
-
-.article h1,
-.article h2,
-.article h3,
-.article h4,
-.article h5,
-.article h6 {
-	font-size: 1.5rem;
-	line-height: 1.4;
-	text-decoration: none;
 }
 
 .article-meta {
@@ -57,10 +49,6 @@ ul {
 li {
 	list-style: none;
 	display: inline-block;
-}
-
-.text-center {
-	display: block;
 }
 
 .sticky-top {
