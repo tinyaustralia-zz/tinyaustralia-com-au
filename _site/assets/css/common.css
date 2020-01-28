@@ -7,29 +7,8 @@ html {
 	min-height: 100%;
 }
 
-body {
-	font-family: 'Roboto', sans-serif;
-    background-color: #f3f3f3;
-	color: 444444;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Roboto Slab", serif;
-	margin-bottom: 1rem;
-	font-weight: 700;
-}
-
-h1, .h1,
-h2, .h2 {
-    font-family: "Roboto Slab", serif;
-}
-
 .roboto-slab {
 	font-family: "Roboto Slab", serif;
-}
-
-.btn-light {
-    border-color: #ecedf0;
 }
 
 .page-title .description {
@@ -52,16 +31,8 @@ h2, .h2 {
 	text-decoration: none;
 }
 
-.article a {
-	text-decoration: none;
-}
-
 .article-meta {
     color: #444;
-}
-
-.text-muted {
-    color: #aaa !important;
 }
 
 .post-meta {
@@ -70,10 +41,6 @@ h2, .h2 {
     border: 1px solid #dfe3e6;
     border-radius: 3px;
 	font-size: 12px;
-}
-
-.p-4 {
-    padding: 2.5rem !important;
 }
 
 .recent-posts-item {
@@ -90,28 +57,6 @@ h2, .h2 {
 .btn-success {
     background-color: #8BC34A;
     border-color: #8BC34A;
-}
-
-a {
-    color: #444444;
-}
-
-a:focus,
-a:active,
-a:hover,
-.navlink:focus,
-.navlink:active,
-.navlink:hover {
-	text-decoration: underline !important;
-	color: #d34a41;
-}
-
-.link-red {
-    color: #c44641 !important;
-}
-
-.link-underline {
-    text-decoration: underline !important;
 }
 
 ul {

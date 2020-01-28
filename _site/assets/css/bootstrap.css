@@ -14,13 +14,13 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #f3f3f3; }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
@@ -94,11 +94,11 @@ sup {
   top: -.5em; }
 
 a {
-  color: #fafafa;
+  color: #444444;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #d4d4d4;
+    color: #1e1e1e;
     text-decoration: underline; }
 
 a:not([href]) {
@@ -137,7 +137,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color: #aaaaaa;
   text-align: left;
   caption-side: bottom; }
 
@@ -1222,19 +1222,19 @@ button.bg-dark:focus {
   background-color: transparent !important; }
 
 .border {
-  border: 1px solid #dee2e6 !important; }
+  border: 1px solid #e6e6e6 !important; }
 
 .border-top {
-  border-top: 1px solid #dee2e6 !important; }
+  border-top: 1px solid #e6e6e6 !important; }
 
 .border-right {
-  border-right: 1px solid #dee2e6 !important; }
+  border-right: 1px solid #e6e6e6 !important; }
 
 .border-bottom {
-  border-bottom: 1px solid #dee2e6 !important; }
+  border-bottom: 1px solid #e6e6e6 !important; }
 
 .border-left {
-  border-left: 1px solid #dee2e6 !important; }
+  border-left: 1px solid #e6e6e6 !important; }
 
 .border-0 {
   border: 0 !important; }
@@ -2276,23 +2276,23 @@ button.bg-dark:focus {
   margin-left: 1rem !important; }
 
 .m-4 {
-  margin: 1.5rem !important; }
+  margin: 2.5rem !important; }
 
 .mt-4,
 .my-4 {
-  margin-top: 1.5rem !important; }
+  margin-top: 2.5rem !important; }
 
 .mr-4,
 .mx-4 {
-  margin-right: 1.5rem !important; }
+  margin-right: 2.5rem !important; }
 
 .mb-4,
 .my-4 {
-  margin-bottom: 1.5rem !important; }
+  margin-bottom: 2.5rem !important; }
 
 .ml-4,
 .mx-4 {
-  margin-left: 1.5rem !important; }
+  margin-left: 2.5rem !important; }
 
 .m-5 {
   margin: 3rem !important; }
@@ -2390,23 +2390,23 @@ button.bg-dark:focus {
   padding-left: 1rem !important; }
 
 .p-4 {
-  padding: 1.5rem !important; }
+  padding: 2.5rem !important; }
 
 .pt-4,
 .py-4 {
-  padding-top: 1.5rem !important; }
+  padding-top: 2.5rem !important; }
 
 .pr-4,
 .px-4 {
-  padding-right: 1.5rem !important; }
+  padding-right: 2.5rem !important; }
 
 .pb-4,
 .py-4 {
-  padding-bottom: 1.5rem !important; }
+  padding-bottom: 2.5rem !important; }
 
 .pl-4,
 .px-4 {
-  padding-left: 1.5rem !important; }
+  padding-left: 2.5rem !important; }
 
 .p-5 {
   padding: 3rem !important; }
@@ -2485,23 +2485,23 @@ button.bg-dark:focus {
   margin-left: -1rem !important; }
 
 .m-n4 {
-  margin: -1.5rem !important; }
+  margin: -2.5rem !important; }
 
 .mt-n4,
 .my-n4 {
-  margin-top: -1.5rem !important; }
+  margin-top: -2.5rem !important; }
 
 .mr-n4,
 .mx-n4 {
-  margin-right: -1.5rem !important; }
+  margin-right: -2.5rem !important; }
 
 .mb-n4,
 .my-n4 {
-  margin-bottom: -1.5rem !important; }
+  margin-bottom: -2.5rem !important; }
 
 .ml-n4,
 .mx-n4 {
-  margin-left: -1.5rem !important; }
+  margin-left: -2.5rem !important; }
 
 .m-n5 {
   margin: -3rem !important; }
@@ -2619,23 +2619,23 @@ button.bg-dark:focus {
     margin-left: 1rem !important; }
 
   .m-sm-4 {
-    margin: 1.5rem !important; }
+    margin: 2.5rem !important; }
 
   .mt-sm-4,
   .my-sm-4 {
-    margin-top: 1.5rem !important; }
+    margin-top: 2.5rem !important; }
 
   .mr-sm-4,
   .mx-sm-4 {
-    margin-right: 1.5rem !important; }
+    margin-right: 2.5rem !important; }
 
   .mb-sm-4,
   .my-sm-4 {
-    margin-bottom: 1.5rem !important; }
+    margin-bottom: 2.5rem !important; }
 
   .ml-sm-4,
   .mx-sm-4 {
-    margin-left: 1.5rem !important; }
+    margin-left: 2.5rem !important; }
 
   .m-sm-5 {
     margin: 3rem !important; }
@@ -2733,23 +2733,23 @@ button.bg-dark:focus {
     padding-left: 1rem !important; }
 
   .p-sm-4 {
-    padding: 1.5rem !important; }
+    padding: 2.5rem !important; }
 
   .pt-sm-4,
   .py-sm-4 {
-    padding-top: 1.5rem !important; }
+    padding-top: 2.5rem !important; }
 
   .pr-sm-4,
   .px-sm-4 {
-    padding-right: 1.5rem !important; }
+    padding-right: 2.5rem !important; }
 
   .pb-sm-4,
   .py-sm-4 {
-    padding-bottom: 1.5rem !important; }
+    padding-bottom: 2.5rem !important; }
 
   .pl-sm-4,
   .px-sm-4 {
-    padding-left: 1.5rem !important; }
+    padding-left: 2.5rem !important; }
 
   .p-sm-5 {
     padding: 3rem !important; }
@@ -2828,23 +2828,23 @@ button.bg-dark:focus {
     margin-left: -1rem !important; }
 
   .m-sm-n4 {
-    margin: -1.5rem !important; }
+    margin: -2.5rem !important; }
 
   .mt-sm-n4,
   .my-sm-n4 {
-    margin-top: -1.5rem !important; }
+    margin-top: -2.5rem !important; }
 
   .mr-sm-n4,
   .mx-sm-n4 {
-    margin-right: -1.5rem !important; }
+    margin-right: -2.5rem !important; }
 
   .mb-sm-n4,
   .my-sm-n4 {
-    margin-bottom: -1.5rem !important; }
+    margin-bottom: -2.5rem !important; }
 
   .ml-sm-n4,
   .mx-sm-n4 {
-    margin-left: -1.5rem !important; }
+    margin-left: -2.5rem !important; }
 
   .m-sm-n5 {
     margin: -3rem !important; }
@@ -2961,23 +2961,23 @@ button.bg-dark:focus {
     margin-left: 1rem !important; }
 
   .m-md-4 {
-    margin: 1.5rem !important; }
+    margin: 2.5rem !important; }
 
   .mt-md-4,
   .my-md-4 {
-    margin-top: 1.5rem !important; }
+    margin-top: 2.5rem !important; }
 
   .mr-md-4,
   .mx-md-4 {
-    margin-right: 1.5rem !important; }
+    margin-right: 2.5rem !important; }
 
   .mb-md-4,
   .my-md-4 {
-    margin-bottom: 1.5rem !important; }
+    margin-bottom: 2.5rem !important; }
 
   .ml-md-4,
   .mx-md-4 {
-    margin-left: 1.5rem !important; }
+    margin-left: 2.5rem !important; }
 
   .m-md-5 {
     margin: 3rem !important; }
@@ -3075,23 +3075,23 @@ button.bg-dark:focus {
     padding-left: 1rem !important; }
 
   .p-md-4 {
-    padding: 1.5rem !important; }
+    padding: 2.5rem !important; }
 
   .pt-md-4,
   .py-md-4 {
-    padding-top: 1.5rem !important; }
+    padding-top: 2.5rem !important; }
 
   .pr-md-4,
   .px-md-4 {
-    padding-right: 1.5rem !important; }
+    padding-right: 2.5rem !important; }
 
   .pb-md-4,
   .py-md-4 {
-    padding-bottom: 1.5rem !important; }
+    padding-bottom: 2.5rem !important; }
 
   .pl-md-4,
   .px-md-4 {
-    padding-left: 1.5rem !important; }
+    padding-left: 2.5rem !important; }
 
   .p-md-5 {
     padding: 3rem !important; }
@@ -3170,23 +3170,23 @@ button.bg-dark:focus {
     margin-left: -1rem !important; }
 
   .m-md-n4 {
-    margin: -1.5rem !important; }
+    margin: -2.5rem !important; }
 
   .mt-md-n4,
   .my-md-n4 {
-    margin-top: -1.5rem !important; }
+    margin-top: -2.5rem !important; }
 
   .mr-md-n4,
   .mx-md-n4 {
-    margin-right: -1.5rem !important; }
+    margin-right: -2.5rem !important; }
 
   .mb-md-n4,
   .my-md-n4 {
-    margin-bottom: -1.5rem !important; }
+    margin-bottom: -2.5rem !important; }
 
   .ml-md-n4,
   .mx-md-n4 {
-    margin-left: -1.5rem !important; }
+    margin-left: -2.5rem !important; }
 
   .m-md-n5 {
     margin: -3rem !important; }
@@ -3303,23 +3303,23 @@ button.bg-dark:focus {
     margin-left: 1rem !important; }
 
   .m-lg-4 {
-    margin: 1.5rem !important; }
+    margin: 2.5rem !important; }
 
   .mt-lg-4,
   .my-lg-4 {
-    margin-top: 1.5rem !important; }
+    margin-top: 2.5rem !important; }
 
   .mr-lg-4,
   .mx-lg-4 {
-    margin-right: 1.5rem !important; }
+    margin-right: 2.5rem !important; }
 
   .mb-lg-4,
   .my-lg-4 {
-    margin-bottom: 1.5rem !important; }
+    margin-bottom: 2.5rem !important; }
 
   .ml-lg-4,
   .mx-lg-4 {
-    margin-left: 1.5rem !important; }
+    margin-left: 2.5rem !important; }
 
   .m-lg-5 {
     margin: 3rem !important; }
@@ -3417,23 +3417,23 @@ button.bg-dark:focus {
     padding-left: 1rem !important; }
 
   .p-lg-4 {
-    padding: 1.5rem !important; }
+    padding: 2.5rem !important; }
 
   .pt-lg-4,
   .py-lg-4 {
-    padding-top: 1.5rem !important; }
+    padding-top: 2.5rem !important; }
 
   .pr-lg-4,
   .px-lg-4 {
-    padding-right: 1.5rem !important; }
+    padding-right: 2.5rem !important; }
 
   .pb-lg-4,
   .py-lg-4 {
-    padding-bottom: 1.5rem !important; }
+    padding-bottom: 2.5rem !important; }
 
   .pl-lg-4,
   .px-lg-4 {
-    padding-left: 1.5rem !important; }
+    padding-left: 2.5rem !important; }
 
   .p-lg-5 {
     padding: 3rem !important; }
@@ -3512,23 +3512,23 @@ button.bg-dark:focus {
     margin-left: -1rem !important; }
 
   .m-lg-n4 {
-    margin: -1.5rem !important; }
+    margin: -2.5rem !important; }
 
   .mt-lg-n4,
   .my-lg-n4 {
-    margin-top: -1.5rem !important; }
+    margin-top: -2.5rem !important; }
 
   .mr-lg-n4,
   .mx-lg-n4 {
-    margin-right: -1.5rem !important; }
+    margin-right: -2.5rem !important; }
 
   .mb-lg-n4,
   .my-lg-n4 {
-    margin-bottom: -1.5rem !important; }
+    margin-bottom: -2.5rem !important; }
 
   .ml-lg-n4,
   .mx-lg-n4 {
-    margin-left: -1.5rem !important; }
+    margin-left: -2.5rem !important; }
 
   .m-lg-n5 {
     margin: -3rem !important; }
@@ -3645,23 +3645,23 @@ button.bg-dark:focus {
     margin-left: 1rem !important; }
 
   .m-xl-4 {
-    margin: 1.5rem !important; }
+    margin: 2.5rem !important; }
 
   .mt-xl-4,
   .my-xl-4 {
-    margin-top: 1.5rem !important; }
+    margin-top: 2.5rem !important; }
 
   .mr-xl-4,
   .mx-xl-4 {
-    margin-right: 1.5rem !important; }
+    margin-right: 2.5rem !important; }
 
   .mb-xl-4,
   .my-xl-4 {
-    margin-bottom: 1.5rem !important; }
+    margin-bottom: 2.5rem !important; }
 
   .ml-xl-4,
   .mx-xl-4 {
-    margin-left: 1.5rem !important; }
+    margin-left: 2.5rem !important; }
 
   .m-xl-5 {
     margin: 3rem !important; }
@@ -3759,23 +3759,23 @@ button.bg-dark:focus {
     padding-left: 1rem !important; }
 
   .p-xl-4 {
-    padding: 1.5rem !important; }
+    padding: 2.5rem !important; }
 
   .pt-xl-4,
   .py-xl-4 {
-    padding-top: 1.5rem !important; }
+    padding-top: 2.5rem !important; }
 
   .pr-xl-4,
   .px-xl-4 {
-    padding-right: 1.5rem !important; }
+    padding-right: 2.5rem !important; }
 
   .pb-xl-4,
   .py-xl-4 {
-    padding-bottom: 1.5rem !important; }
+    padding-bottom: 2.5rem !important; }
 
   .pl-xl-4,
   .px-xl-4 {
-    padding-left: 1.5rem !important; }
+    padding-left: 2.5rem !important; }
 
   .p-xl-5 {
     padding: 3rem !important; }
@@ -3854,23 +3854,23 @@ button.bg-dark:focus {
     margin-left: -1rem !important; }
 
   .m-xl-n4 {
-    margin: -1.5rem !important; }
+    margin: -2.5rem !important; }
 
   .mt-xl-n4,
   .my-xl-n4 {
-    margin-top: -1.5rem !important; }
+    margin-top: -2.5rem !important; }
 
   .mr-xl-n4,
   .mx-xl-n4 {
-    margin-right: -1.5rem !important; }
+    margin-right: -2.5rem !important; }
 
   .mb-xl-n4,
   .my-xl-n4 {
-    margin-bottom: -1.5rem !important; }
+    margin-bottom: -2.5rem !important; }
 
   .ml-xl-n4,
   .mx-xl-n4 {
-    margin-left: -1.5rem !important; }
+    margin-left: -2.5rem !important; }
 
   .m-xl-n5 {
     margin: -3rem !important; }
@@ -4053,7 +4053,7 @@ a.text-dark:hover, a.text-dark:focus {
   color: #212529 !important; }
 
 .text-muted {
-  color: #6c757d !important; }
+  color: #aaaaaa !important; }
 
 .text-black-50 {
   color: rgba(0, 0, 0, 0.5) !important; }
@@ -4087,7 +4087,8 @@ a.text-dark:hover, a.text-dark:focus {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
   line-height: 1.2; }
 
 h1, .h1 {
@@ -4553,10 +4554,10 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #fafafa;
+  color: #444444;
   text-decoration: none; }
   .btn-link:hover {
-    color: #d4d4d4;
+    color: #1e1e1e;
     text-decoration: underline; }
   .btn-link:focus, .btn-link.focus {
     text-decoration: underline;
@@ -4875,7 +4876,7 @@ textarea.form-control {
   margin-top: 0.3rem;
   margin-left: -1.25rem; }
   .form-check-input[disabled] ~ .form-check-label, .form-check-input:disabled ~ .form-check-label {
-    color: #6c757d; }
+    color: #aaaaaa; }
 
 .form-check-label {
   margin-bottom: 0; }
@@ -5092,7 +5093,7 @@ textarea.form-control {
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
+  background-color: #f3f3f3;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -5143,8 +5144,8 @@ textarea.form-control {
   .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
     color: #495057;
-    background-color: #fff;
-    border-color: #dee2e6 #dee2e6 #fff; }
+    background-color: #f3f3f3;
+    border-color: #dee2e6 #dee2e6 #f3f3f3; }
   .nav-tabs .dropdown-menu {
     margin-top: -1px;
     border-top-left-radius: 0;
@@ -5467,12 +5468,12 @@ textarea.form-control {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #fafafa;
+  color: #444444;
   background-color: #fff;
   border: 1px solid #dee2e6; }
   .page-link:hover {
     z-index: 2;
-    color: #d4d4d4;
+    color: #1e1e1e;
     text-decoration: none;
     background-color: #e9ecef;
     border-color: #dee2e6; }
