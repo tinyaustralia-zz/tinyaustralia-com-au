@@ -1,4 +1,10 @@
 _site/
+node_modules/
+package.json
+package-lock.json
+.gitignore
+Gemfile
+Gemfile.lock
 *.com
 *.class
 *.dll
