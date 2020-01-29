@@ -17,6 +17,7 @@ timezone:       Australia/Brisbane
 
 # Configuration
 permalink:      /:categories/:title/
+
 plugins:
                 - jekyll-sitemap
                 - jekyll-paginate
@@ -24,7 +25,21 @@ plugins:
 tools:
     standards:  "HTML, SCSS, Jekyll"
     software:   "git"
+
+gems:
+                - jekyll-paginate-v2
 opengraph:
     locale:     en_AU
+
 sass:
     style:      :compressed
+    
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page/:num/'
+  title_suffix: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true

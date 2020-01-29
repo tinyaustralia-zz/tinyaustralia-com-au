@@ -17,7 +17,7 @@ show_description:	true
 		<div class="article-content">
 			<div class="row">
 				
-				<div class="article-left col-md-5">
+				<div class="col-md-5">
 					
 					<a href="{{ site.baseurl }}{{ post.url }}">
 						{% if post.article-image %}
@@ -33,7 +33,7 @@ show_description:	true
 					
 				</div>
 				
-				<div class="article-right col-md-7">
+				<div class="col-md-7">
 						
 					<div class="article-excerpt mb-2">
 						{{ post.excerpt | strip_html | strip_newlines | truncate: 190 }}
