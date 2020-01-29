@@ -20,6 +20,9 @@
 				</ul>
 				
 				<ul class="navbar-nav">
+					{% if page.layout == 'single' %}
+						<li class="nav-item"><a class="nav-link" href="/author">author</a></li>
+					{% endif %}
 					<li class="nav-item"><a class="nav-link" href="https://www.instagram.com/tinyaustralia" target="_blank"><i class="fab fa-instagram"></i></a></li>
 					<li class="nav-item"><a class="nav-link" href="https://www.facebook.com/tinyaustralia" target="_blank"><i class="fab fa-facebook"></i></a></li>
 					<li class="nav-item"><a class="nav-link" href="https://www.twitter.com/tinyaustralia" target="_blank"><i class="fab fa-twitter"></i></a></li>
