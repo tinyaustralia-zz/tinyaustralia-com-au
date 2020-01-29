@@ -22,12 +22,11 @@ plugins:
                 - jekyll-sitemap
                 - jekyll-paginate
                 - jekyll-seo-tag
+
 tools:
     standards:  "HTML, SCSS, Jekyll"
     software:   "git"
 
-gems:
-                - jekyll-paginate-v2
 opengraph:
     locale:     en_AU
 

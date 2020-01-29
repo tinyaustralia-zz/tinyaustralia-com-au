@@ -1,10 +1,8 @@
 /* Reset */
 
-/*
 @media only screen and (min-width : 768px) {
-    .container { max-width: 991px; }
+    .container { max-width: 1024px; }
 }
-*/
 
 html {
 	position: relative;
@@ -51,6 +49,8 @@ main {
 }
 
 .dropcaps {
+	position: relative;
+    bottom: -5px;
     line-height: 1;
 }
 
