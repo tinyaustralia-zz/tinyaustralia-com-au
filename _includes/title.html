@@ -1,11 +1,23 @@
 {% if page.show_title %}
 	<div class="page-title">
-		<!-- Title -->
-		{% if page.show_description %}
-			<h1 class="title display-2 mb-3">{{ page.title }}</h1>
-			<h2 class="description display-4 mb-5">{{ page.description }}</h1>
-		{% else %}
-			<h1 class="display-2 mb-5">{{ page.title }}</h1>
+		
+		{% if page.layout == 'page' %}
+			{% if page.show_description %}
+				<h1 class="title display-1 mb-3">{{ page.title }}</h1>
+				<h2 class="description display-4 mb-5">{{ page.description }}</h2>
+			{% else %}
+				<h1 class="display-1 mb-5">{{ page.title }}</h1>
+			{% endif %}
 		{% endif %}
+		
+		{% if page.layout == 'single' and !='page' %}
+			{% if page.show_description %}
+				<h1 class="title display-2 mb-3">{{ page.title }}</h1>
+				<h2 class="description display-4 mb-5">{{ page.description }}</h2>
+			{% else %}
+				<h1 class="display-2 mb-5">{{ page.title }}</h1>
+			{% endif %}	
+		{% endif %}
+		
 	</div>
 {% endif %}
