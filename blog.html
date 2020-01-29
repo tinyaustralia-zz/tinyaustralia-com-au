@@ -19,8 +19,8 @@ show_description:	true
 				
 				<div class="article-left col-md-4">
 					
-					{% if post.featured-image %}
-						<div class="article-image rounded mb-3" style="background-image: url({{ post.featured-image }})"></div>
+					{% if post.article-image %}
+						<div class="article-image rounded mb-3" style="background-image: url({{ post.article-image }})"></div>
 					{% else %}
 						<div class="article-image rounded mb-3" style="background-image: url({{ site.url }}/assets/images/og.jpg)"></div>
 					{% endif %}
