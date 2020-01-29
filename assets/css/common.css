@@ -44,10 +44,6 @@ main {
 	font-family: "Roboto Slab", serif;
 }
 
-.georgia {
-	font-family: Georgia, serif;
-}
-
 .dropcaps {
     line-height: 1;
 }
@@ -133,6 +129,7 @@ main {
 }
 
 .blockquote-container blockquote {
+    font-family: Georgia, serif;
     font-size: 1.5em;
     font-style: italic;
     position: relative;

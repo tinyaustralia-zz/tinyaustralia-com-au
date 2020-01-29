@@ -10,7 +10,7 @@ show_description:	true
 {% for post in site.posts %}
 	<div class="article mb-5">
 
-		<h2 class="display-3">
+		<h2 class="display-3 mb-3">
 			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 		</h2>
 
@@ -25,13 +25,13 @@ show_description:	true
 						<div class="article-image rounded mb-3" style="background-image: url({{ site.url }}/assets/images/og.jpg)"></div>
 					{% endif %}
 					
-					<div class="article-share mb-2">
+					<div class="article-share mb-3">
 						{% include share.html %}
 					</div>
 					
 				</div>
 				
-				<div class="article-right col-md-8">
+				<div class="article-right col-md-9">
 						
 					<div class="article-excerpt mb-2">
 						{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}
