@@ -8,7 +8,7 @@ show_description:	true
 ---
 
 {% for post in site.posts %}
-	<div class="article mb-5">
+	<div class="article">
 
 		<h2 class="display-3 mb-3">
 			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -17,32 +17,34 @@ show_description:	true
 		<div class="article-content">
 			<div class="row">
 				
-				<div class="article-left col-md-4">
+				<div class="article-left col-md-5">
 					
-					{% if post.article-image %}
-						<div class="article-image rounded mb-3" style="background-image: url({{ post.article-image }})"></div>
-					{% else %}
-						<div class="article-image rounded mb-3" style="background-image: url({{ site.url }}/assets/images/og.jpg)"></div>
-					{% endif %}
+					<a href="{{ site.baseurl }}{{ post.url }}">
+						{% if post.article-image %}
+							<div class="article-image rounded mb-3" style="background-image: url({{ post.article-image }})"></div>
+						{% else %}
+							<div class="article-image rounded mb-3" style="background-image: url({{ site.url }}/assets/images/og.jpg)"></div>
+						{% endif %}
+					</a>
 					
-					<div class="article-share mb-3">
+					<div class="article-share">
 						{% include share.html %}
 					</div>
 					
 				</div>
 				
-				<div class="article-right col-md-9">
+				<div class="article-right col-md-7">
 						
 					<div class="article-excerpt mb-2">
-						{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}
+						{{ post.excerpt | strip_html | strip_newlines | truncate: 190 }}
 					</div>
 						
 					<div class="article-meta mb-3">
-						<div class="post-meta bg-light"><strong>Published:</strong> {{ post.date | date: "%B %e, %Y" }}</div>
-						<div class="post-meta bg-light"><strong>Category:</strong> {{ post.category }}</div>
+						<div class="post-meta bg-light">{{ post.date | date: "%B %e, %Y" }}</div>
+						<div class="post-meta bg-light">{{ post.category }}</div>
 					</div>
 					
-					<button class="btn btn-dark">
+					<button class="btn btn-success">
 						<a href="{{ site.baseurl }}{{ post.url }}" class="text-light">Continue reading...</a>
 					</button>
 					
@@ -51,7 +53,7 @@ show_description:	true
 			</div>
 		</div>
 		
-		<hr class="mb-5" />
+		<hr class="my-4" />
 
 	</div>
 {% endfor %}

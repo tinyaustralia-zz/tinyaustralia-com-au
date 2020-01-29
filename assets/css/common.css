@@ -156,6 +156,57 @@ main {
     text-transform: uppercase;
 }
 
+/* Social Buttons */
+
+.social-menu {
+  z-index: 999;
+  position: relative;
+}
+
+.social-menu .share-buttons li {
+  transition: all ease-in-out 0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+}
+
+.social-menu .share-button i {
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  line-height: 45px;
+  background-color: #fafafa;
+  border: 1px solid #e6e6e6;
+  border-radius: 100%;
+}
+
+.social-menu .share-buttons li a:hover i {
+  background-color: #fff;
+}
+
+.social-menu .share-button:hover li:nth-child(1) {
+  opacity: 1;
+  left: 50px;
+  transform: rotate(0deg);
+  transition-delay: 0.08s;
+}
+
+.social-menu .share-button:hover li:nth-child(2) {
+  opacity: 1;
+  left: 95px;
+  transform: rotate(0deg);
+  transition-delay: 0.16s;
+}
+
+.social-menu .share-button:hover li:nth-child(3) {
+  opacity: 1;
+  left: 149px;
+  transform: rotate(0deg);
+  transition-delay: 0.24s;
+}
+
 /* Footer */
 
 .footer {
