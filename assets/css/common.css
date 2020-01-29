@@ -222,13 +222,3 @@ main {
 .footer .navbar-nav {
     display: inline-block;
 }
-
-.footer ul {
-	margin: 0;
-	padding: 0;
-}
-
-.footer .nav-link {
-    padding: 0 !important;
-    margin: 0 12px 0 0 !important;
-}
