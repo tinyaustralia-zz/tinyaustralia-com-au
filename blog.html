@@ -21,13 +21,13 @@ show_description:	true
 					
 					<a href="{{ site.baseurl }}{{ post.url }}">
 						{% if post.article-image %}
-							<div class="article-image rounded mb-3" style="background-image: url({{ post.article-image }})"></div>
+							<div class="article-image rounded" style="background-image: url({{ post.article-image }})"></div>
 						{% else %}
-							<div class="article-image rounded mb-3" style="background-image: url({{ site.url }}/assets/images/og.jpg)"></div>
+							<div class="article-image rounded" style="background-image: url({{ site.url }}/assets/images/og.jpg)"></div>
 						{% endif %}
 					</a>
 					
-					<div class="article-share">
+					<div class="article-share text-right">
 						{% include share.html %}
 					</div>
 					
