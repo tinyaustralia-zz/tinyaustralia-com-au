@@ -4,38 +4,17 @@
     .container { max-width: 1024px; }
 }
 
+* {
+	outline: none !important;
+}
+
 html {
 	position: relative;
 	min-height: 100%;
 }
 
-.display-2 {
-	line-height: 1.2;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-li {
-	list-style: none;
-	display: inline-block;
-}
-
-sup {
-    font-weight: 700;
-    padding: 2px;
-}
-
 main {
 	margin: 40px 0 100px 0;
-}
-
-.btn:focus,
-.btn:active {
-	outline: none !important;
-	box-shadow: none !important;
 }
 
 /* Reusables */
@@ -60,26 +39,11 @@ main {
     min-height: 60px;
 }
 
-.navbar-brand {
-    margin-right: 15;
-}
-
 .navbar-brand .logo {
 	width: 35px;
     height: 35px;
-    margin-right: 3px;
     border: 1px solid #dd6764;
     border-radius: 100%;
-}
-
-/* Primary */
-
-.page-title .description {
-	display: inline-block;
-    color: #fff;
-    background-color: #c44641;
-    padding: 5px 10px;
-    border-radius: 0.15rem;
 }
 
 /* Blog */
@@ -93,10 +57,11 @@ main {
 
 .post-meta {
 	display: inline-block;
-    padding: 4px 8px;
+    padding: 4px 10px;
     border: 1px solid #dfe3e6;
     border-radius: 3px;
 	font-size: 12px;
+	font-weight: 700;
 }
 
 /* Media */
