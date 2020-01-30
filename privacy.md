@@ -9,7 +9,7 @@ show_description:	true
 
 ###### Updated January, 2020
 
-This following document sets forth the Privacy Policy for the Tiny Australia website, http://tinyaustralia.com.au.
+This following document sets forth the Privacy Policy for the Tiny Australia website, [http://tinyaustralia.com.au].
 
 Tiny Australia is committed to providing you with the best possible customer service experience. Tiny Australia is bound by the Privacy Act 1988 (Cth), which sets out a number of principles concerning the privacy of individuals.
 
