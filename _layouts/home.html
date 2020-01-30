@@ -1,0 +1,33 @@
+{% include header.html %}
+
+<div class="jumbotron jumbotron-fluid bg-white border-bottom">
+  <div class="container">
+	  <img src="/assets/images/carnival.png" alt="Smiley face" class="img-fluid">
+  </div>
+</div>
+
+	<!-- Page Wrapper -->
+	<main id="primary" role="main" class="container">
+		<div class="row">
+
+			<!-- Primary Column -->
+			<div class="primary col-md-8">
+
+				{% include title.html %}
+				
+				<!-- Content Wrapper -->
+				<content class="page-content">
+					
+					{{ content }}
+
+				</content>
+				
+			</div>
+
+			<!-- Sidebar Column -->
+			<div id="secondary" role="sidebar" class="sidebar col-md-4">{% include sidebar-page.html %}</div>
+
+		</div>
+	</main>
+
+{% include footer.html %}
