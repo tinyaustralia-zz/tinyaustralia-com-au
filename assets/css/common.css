@@ -25,6 +25,12 @@ html {
 	min-height: 100%;
 }
 
+body {
+	background-image: url(assets/images/body-bg.png);
+	background-size: contain;
+	background-repeat: repeat;
+}
+
 main {
 	margin: 40px 0 100px 0;
 }
