@@ -26,9 +26,9 @@ html {
 }
 
 body {
-	background-image: url(https://tinyaustralia.com.au/assets/images/body-bg.png);
-	background-size: contain;
-	background-repeat: repeat;
+    background-image: url(https://tinyaustralia.com.au/assets/images/body-bg.png);
+    background-size: 35%;
+    background-repeat: repeat;
 }
 
 main {
